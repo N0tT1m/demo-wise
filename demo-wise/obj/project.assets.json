@@ -1,43 +1,44 @@
 {
   "version": 3,
   "targets": {
-    "net9.0": {}
+    ".NETFramework,Version=v8.0": {},
+    ".NETFramework,Version=v9.0": {}
   },
   "libraries": {},
   "projectFileDependencyGroups": {
-    "net9.0": []
+    ".NETFramework,Version=v8.0": [],
+    ".NETFramework,Version=v9.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Nathan\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "/Users/timmy/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\demo-wise.csproj",
+      "projectUniqueName": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/demo-wise.csproj",
       "projectName": "demo-wise",
-      "projectPath": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\demo-wise.csproj",
-      "packagesPath": "C:\\Users\\Nathan\\.nuget\\packages\\",
-      "outputPath": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\obj\\",
+      "projectPath": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/demo-wise.csproj",
+      "packagesPath": "/Users/timmy/.nuget/packages/",
+      "outputPath": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
+      "crossTargeting": true,
+      "UsingMicrosoftNETSdk": false,
       "configFilePaths": [
-        "C:\\Users\\Nathan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/timmy/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
+        "net8.0",
         "net9.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net9.0": {
+        "net80": {
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        },
+        "net90": {
           "targetAlias": "net9.0",
           "projectReferences": {}
         }
@@ -46,37 +47,16 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.100"
+      }
     },
     "frameworks": {
-      "net9.0": {
+      "net80": {
+        "targetAlias": "net8.0",
+        "runtimeIdentifierGraphPath": "/Library/Frameworks/Mono.framework/Versions/6.12.0/lib/mono/msbuild/Current/bin/RuntimeIdentifierGraph.json"
+      },
+      "net90": {
         "targetAlias": "net9.0",
-        "imports": [
-          "net461",
-          "net462",
-          "net47",
-          "net471",
-          "net472",
-          "net48",
-          "net481"
-        ],
-        "assetTargetFallback": true,
-        "warn": true,
-        "frameworkReferences": {
-          "Microsoft.AspNetCore.App": {
-            "privateAssets": "none"
-          },
-          "Microsoft.NETCore.App": {
-            "privateAssets": "all"
-          }
-        },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/Library/Frameworks/Mono.framework/Versions/6.12.0/lib/mono/msbuild/Current/bin/RuntimeIdentifierGraph.json"
       }
     }
   }
