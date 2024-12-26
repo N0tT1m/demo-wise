@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("demo-vault")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a7de7e867a41cc9300e778cde3229086abbba275")]
 [assembly: System.Reflection.AssemblyProductAttribute("demo-vault")]
 [assembly: System.Reflection.AssemblyTitleAttribute("demo-vault")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

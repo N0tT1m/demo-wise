@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\workspace\\public-projects\\demo-vault\\demo-vault\\demo-vault.csproj": {}
+    "E:\\workspace\\public-projects\\demo-wise\\demo-vault\\demo-vault.csproj": {}
   },
   "projects": {
-    "E:\\workspace\\public-projects\\demo-vault\\demo-vault\\demo-vault.csproj": {
+    "E:\\workspace\\public-projects\\demo-wise\\demo-vault\\demo-vault.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\workspace\\public-projects\\demo-vault\\demo-vault\\demo-vault.csproj",
+        "projectUniqueName": "E:\\workspace\\public-projects\\demo-wise\\demo-vault\\demo-vault.csproj",
         "projectName": "demo-vault",
-        "projectPath": "E:\\workspace\\public-projects\\demo-vault\\demo-vault\\demo-vault.csproj",
+        "projectPath": "E:\\workspace\\public-projects\\demo-wise\\demo-vault\\demo-vault.csproj",
         "packagesPath": "C:\\Users\\Nathan\\.nuget\\packages\\",
-        "outputPath": "E:\\workspace\\public-projects\\demo-vault\\demo-vault\\obj\\",
+        "outputPath": "E:\\workspace\\public-projects\\demo-wise\\demo-vault\\obj\\",
         "projectStyle": "PackageReference",
         "UsingMicrosoftNETSdk": false,
         "fallbackFolders": [

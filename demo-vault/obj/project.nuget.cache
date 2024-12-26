@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+7b5IPc+UgI=",
+  "dgSpecHash": "8zEELYtpliA=",
   "success": true,
-  "projectFilePath": "E:\\workspace\\public-projects\\demo-vault\\demo-vault\\demo-vault.csproj",
+  "projectFilePath": "E:\\workspace\\public-projects\\demo-wise\\demo-vault\\demo-vault.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Nathan\\.nuget\\packages\\closedxml\\0.104.2\\closedxml.0.104.2.nupkg.sha512",
     "C:\\Users\\Nathan\\.nuget\\packages\\closedxml.parser\\1.2.0\\closedxml.parser.1.2.0.nupkg.sha512",
