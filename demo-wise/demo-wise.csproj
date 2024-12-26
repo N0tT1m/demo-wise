@@ -7,7 +7,7 @@
         <AssemblyName>$(AssemblyName.Replace(' ', '_'))</AssemblyName>
         <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
         <TargetFrameworks>net9.0;net8.0</TargetFrameworks>
-        <LangVersion>9</LangVersion>
+        <LangVersion>12</LangVersion>
     </PropertyGroup>
 
     <ItemGroup>
