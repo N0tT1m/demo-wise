@@ -13,6 +13,7 @@
       <PackageReference Include="ClosedXML" Version="0.104.2" />
       <PackageReference Include="DemoFile" Version="0.27.1" />
       <PackageReference Include="DemoFile.Game.Cs" Version="0.27.1" />
+      <PackageReference Include="Microsoft.Data.SqlClient" Version="6.0.0-preview3.24332.3" />
       <PackageReference Include="Microsoft.Extensions.CommandLineUtils" Version="1.1.1" />
       <PackageReference Include="OfficeOpenXml.Core.ExcelPackage" Version="1.0.0" />
       <PackageReference Include="Spectre.Console" Version="0.49.2-preview.0.69" />

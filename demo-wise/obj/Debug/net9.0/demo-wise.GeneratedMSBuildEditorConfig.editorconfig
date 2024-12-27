@@ -1,11 +1,4 @@
 is_global = true
-<<<<<<< HEAD
-build_property.EnableAotAnalyzer = 
-build_property.EnableSingleFileAnalyzer = 
-build_property.EnableTrimAnalyzer = 
-build_property.IncludeAllContentForSelfExtract = 
-=======
->>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
 build_property.TargetFramework = net9.0
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true

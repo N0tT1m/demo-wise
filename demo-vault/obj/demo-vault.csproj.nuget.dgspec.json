@@ -68,6 +68,10 @@
               "target": "Package",
               "version": "[0.27.1, )"
             },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[6.0.0-preview3.24332.3, )"
+            },
             "Microsoft.Extensions.CommandLineUtils": {
               "target": "Package",
               "version": "[1.1.1, )"
@@ -117,6 +121,10 @@
             "DemoFile.Game.Cs": {
               "target": "Package",
               "version": "[0.27.1, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[6.0.0-preview3.24332.3, )"
             },
             "Microsoft.Extensions.CommandLineUtils": {
               "target": "Package",

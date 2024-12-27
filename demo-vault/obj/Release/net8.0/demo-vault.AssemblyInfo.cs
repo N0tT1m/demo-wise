@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("demo-vault")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bc8e9f432845b4e85846a4e039611c4ad2af40e8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8ae3cc9c2ca288866407ac3090ee42d2bdbd568a")]
 [assembly: System.Reflection.AssemblyProductAttribute("demo-vault")]
 [assembly: System.Reflection.AssemblyTitleAttribute("demo-vault")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

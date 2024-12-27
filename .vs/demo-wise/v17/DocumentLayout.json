@@ -1,37 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\workspace\\public-projects\\demo-wise\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{CC8842AE-DF7B-44F4-A1CE-E7BD267D03D6}|demo-lens\\demo-lens.vcxproj|E:\\workspace\\public-projects\\demo-wise\\demo-lens\\demo-lens.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{CC8842AE-DF7B-44F4-A1CE-E7BD267D03D6}|demo-lens\\demo-lens.vcxproj|solutionrelative:demo-lens\\demo-lens.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "demo-lens.cpp",
-              "DocumentMoniker": "E:\\workspace\\public-projects\\demo-wise\\demo-lens\\demo-lens.cpp",
-              "RelativeDocumentMoniker": "demo-lens\\demo-lens.cpp",
-              "ToolTip": "E:\\workspace\\public-projects\\demo-wise\\demo-lens\\demo-lens.cpp",
-              "RelativeToolTip": "demo-lens\\demo-lens.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-26T19:59:12.231Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }
