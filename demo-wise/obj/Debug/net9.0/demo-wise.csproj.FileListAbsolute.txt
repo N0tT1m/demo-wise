@@ -78,6 +78,7 @@
 /Users/timmy/workspace/public-projects/demo-wise/demo-wise/obj/Debug/net9.0/demo-wise.pdb
 /Users/timmy/workspace/public-projects/demo-wise/demo-wise/obj/Debug/net9.0/demo-wise.genruntimeconfig.cache
 /Users/timmy/workspace/public-projects/demo-wise/demo-wise/obj/Debug/net9.0/ref/demo-wise.dll
+<<<<<<< HEAD
 E:\workspace\public-projects\demo-wise\demo-wise\bin\Debug\net9.0\appsettings.Development.json
 E:\workspace\public-projects\demo-wise\demo-wise\bin\Debug\net9.0\appsettings.json
 E:\workspace\public-projects\demo-wise\demo-wise\bin\Debug\net9.0\demo-wise.staticwebassets.runtime.json
@@ -159,3 +160,5 @@ E:\workspace\public-projects\demo-wise\demo-wise\obj\Debug\net9.0\refint\demo-wi
 E:\workspace\public-projects\demo-wise\demo-wise\obj\Debug\net9.0\demo-wise.pdb
 E:\workspace\public-projects\demo-wise\demo-wise\obj\Debug\net9.0\demo-wise.genruntimeconfig.cache
 E:\workspace\public-projects\demo-wise\demo-wise\obj\Debug\net9.0\ref\demo-wise.dll
+=======
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41

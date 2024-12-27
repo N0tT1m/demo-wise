@@ -1,0 +1,2 @@
+E:\workspace\public-projects\demo-vault\demo-vault\bin\Release\net9.0\win-x64\publish\demo-vault.pdb
+E:\workspace\public-projects\demo-vault\demo-vault\bin\Release\net9.0\win-x64\publish\demo-vault.exe

@@ -1,6 +1,10 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "Hash": "nzwue87g9OEv14R3FmO9wufBdKKwwDQ1WVWHnMj2W6w=",
+=======
+  "Hash": "sZjtoqU5YQJxP+a46NbHwaQNk4twlUfkm8HGCoi1SGM=",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
   "Source": "demo-wise",
   "BasePath": "_content/demo-wise",
   "Mode": "Default",
@@ -8,19 +12,32 @@
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [
     {
+<<<<<<< HEAD
       "Name": "demo-wise\\wwwroot",
       "Source": "demo-wise",
       "ContentRoot": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\",
+=======
+      "Name": "demo-wise/wwwroot",
+      "Source": "demo-wise",
+      "ContentRoot": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "BasePath": "_content/demo-wise",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
+<<<<<<< HEAD
       "Identity": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\obj\\Debug\\net8.0\\scopedcss\\bundle\\demo-wise.styles.css",
       "SourceId": "demo-wise",
       "SourceType": "Computed",
       "ContentRoot": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+=======
+      "Identity": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/obj/Debug/net8.0/scopedcss/bundle/demo-wise.styles.css",
+      "SourceId": "demo-wise",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/obj/Debug/net8.0/scopedcss/bundle/",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "BasePath": "_content/demo-wise",
       "RelativePath": "demo-wise#[.{fingerprint}]?.styles.css",
       "AssetKind": "All",
@@ -31,6 +48,7 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
+<<<<<<< HEAD
       "Fingerprint": "pojznj3ukx",
       "Integrity": "aaEhsgHearAAOV9J2aSNxmMkrYKWkpQBV8Qner2bV/Q=",
       "CopyToOutputDirectory": "Never",
@@ -42,6 +60,19 @@
       "SourceId": "demo-wise",
       "SourceType": "Computed",
       "ContentRoot": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+=======
+      "Fingerprint": "jmlr6eoaf5",
+      "Integrity": "O2QNMb3sljNOMX2y9ninKtvLIWjJDci/SlVl9DCiqyA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/obj/Debug/net8.0/scopedcss/bundle/demo-wise.styles.css"
+    },
+    {
+      "Identity": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/obj/Debug/net8.0/scopedcss/projectbundle/demo-wise.bundle.scp.css",
+      "SourceId": "demo-wise",
+      "SourceType": "Computed",
+      "ContentRoot": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/obj/Debug/net8.0/scopedcss/projectbundle/",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "BasePath": "_content/demo-wise",
       "RelativePath": "demo-wise#[.{fingerprint}]!.bundle.scp.css",
       "AssetKind": "All",
@@ -52,6 +83,7 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
+<<<<<<< HEAD
       "Fingerprint": "pojznj3ukx",
       "Integrity": "aaEhsgHearAAOV9J2aSNxmMkrYKWkpQBV8Qner2bV/Q=",
       "CopyToOutputDirectory": "Never",
@@ -63,6 +95,19 @@
       "SourceId": "demo-wise",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\",
+=======
+      "Fingerprint": "jmlr6eoaf5",
+      "Integrity": "O2QNMb3sljNOMX2y9ninKtvLIWjJDci/SlVl9DCiqyA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/obj/Debug/net8.0/scopedcss/projectbundle/demo-wise.bundle.scp.css"
+    },
+    {
+      "Identity": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/app.css",
+      "SourceId": "demo-wise",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "BasePath": "_content/demo-wise",
       "RelativePath": "app#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -73,6 +118,7 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+<<<<<<< HEAD
       "Fingerprint": "khy4lop6wu",
       "Integrity": "aNPcLFwdCCGS2v1guSR64Htd4Ly5uclT7taAptnMPbs=",
       "CopyToOutputDirectory": "Never",
@@ -84,6 +130,19 @@
       "SourceId": "demo-wise",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\",
+=======
+      "Fingerprint": "w7mf952350",
+      "Integrity": "PNvEyASL960qpWmVJ5Purzbr0F4hodQnu+u/XkKHuE0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/app.css"
+    },
+    {
+      "Identity": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/favicon.png",
+      "SourceId": "demo-wise",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "BasePath": "_content/demo-wise",
       "RelativePath": "favicon#[.{fingerprint}]?.png",
       "AssetKind": "All",
@@ -98,6 +157,7 @@
       "Integrity": "4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot\\favicon.png"
     },
     {
@@ -273,6 +333,15 @@
       "SourceId": "demo-wise",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\",
+=======
+      "OriginalItemSpec": "wwwroot/favicon.png"
+    },
+    {
+      "Identity": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "SourceId": "demo-wise",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "BasePath": "_content/demo-wise",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -283,6 +352,7 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+<<<<<<< HEAD
       "Fingerprint": "t1cqhe9u97",
       "Integrity": "f4c8YV1qrr6RSiVYWMQT7R5W2OkT+iXmE5H69/uRvGQ=",
       "CopyToOutputDirectory": "Never",
@@ -294,6 +364,19 @@
       "SourceId": "demo-wise",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\",
+=======
+      "Fingerprint": "bqjiyaj88i",
+      "Integrity": "Yy5/hBqRmmU2MJ1TKwP2aXoTO6+OjzrLmJIsC2Wy4H8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css"
+    },
+    {
+      "Identity": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "SourceId": "demo-wise",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "BasePath": "_content/demo-wise",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -308,6 +391,7 @@
       "Integrity": "xAT+n25FE5hvOjj2fG4YdOwr1bl4IlAJBNg6PbhLT2E=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
@@ -315,6 +399,15 @@
       "SourceId": "demo-wise",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\",
+=======
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+    },
+    {
+      "Identity": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "SourceId": "demo-wise",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "BasePath": "_content/demo-wise",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -325,6 +418,7 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+<<<<<<< HEAD
       "Fingerprint": "sejl45xvog",
       "Integrity": "hN2ttMG/K3wQlFrN3SbQ1YF4tIJHCE4oYP+QibT3vOY=",
       "CopyToOutputDirectory": "Never",
@@ -336,6 +430,19 @@
       "SourceId": "demo-wise",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\",
+=======
+      "Fingerprint": "erw9l3u2r3",
+      "Integrity": "5nDHMGiyfZHl3UXePuhLDQR9ncPfBR1HJeZLXyJNV24=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+    },
+    {
+      "Identity": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "SourceId": "demo-wise",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "BasePath": "_content/demo-wise",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -350,6 +457,7 @@
       "Integrity": "kgL+xwVmM8IOs15lnoHt9daR2LRMiBG/cYgUPcKQOY4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
@@ -357,6 +465,15 @@
       "SourceId": "demo-wise",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\",
+=======
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Identity": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "SourceId": "demo-wise",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "BasePath": "_content/demo-wise",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -367,6 +484,7 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+<<<<<<< HEAD
       "Fingerprint": "xvp3kq03qx",
       "Integrity": "M15fHTKfMK6cTars5c28PNhN6hD0qeUb3HPzOdoPwCc=",
       "CopyToOutputDirectory": "Never",
@@ -378,6 +496,19 @@
       "SourceId": "demo-wise",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\",
+=======
+      "Fingerprint": "d7shbmvgxk",
+      "Integrity": "CZxoF8zjaLlyVkcvVCDlc8CeQR1w1RMrvgYx30cs8kM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+    },
+    {
+      "Identity": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "SourceId": "demo-wise",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "BasePath": "_content/demo-wise",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -392,6 +523,7 @@
       "Integrity": "/siQUA8yX830j+cL4amKHY3yBtn3n8z3Eg+VZ15f90k=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
@@ -399,6 +531,15 @@
       "SourceId": "demo-wise",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\",
+=======
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Identity": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "SourceId": "demo-wise",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "BasePath": "_content/demo-wise",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -409,6 +550,7 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+<<<<<<< HEAD
       "Fingerprint": "22vffe00uq",
       "Integrity": "+rGG3u63SMkHL80Ga42LAawPUj7i8vaR2Kuenqlta2E=",
       "CopyToOutputDirectory": "Never",
@@ -420,6 +562,19 @@
       "SourceId": "demo-wise",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\",
+=======
+      "Fingerprint": "k8d9w2qqmf",
+      "Integrity": "vMxTcvkC4Ly7LiAT3G8yEy9EpTr7Fge4SczWp07/p3k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Identity": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "SourceId": "demo-wise",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "BasePath": "_content/demo-wise",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -434,6 +589,7 @@
       "Integrity": "7GdOlw7U/wgyaeUtFmxPz5/MphdvVSPtVOOlTn9c33Q=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
@@ -441,6 +597,15 @@
       "SourceId": "demo-wise",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\",
+=======
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Identity": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "SourceId": "demo-wise",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "BasePath": "_content/demo-wise",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -451,6 +616,7 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+<<<<<<< HEAD
       "Fingerprint": "qesaa3a1fm",
       "Integrity": "rjusxCRzKjztCcfgOVduAc3e3Z7KvimJGokJSeADNmE=",
       "CopyToOutputDirectory": "Never",
@@ -462,6 +628,19 @@
       "SourceId": "demo-wise",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\",
+=======
+      "Fingerprint": "ub07r2b239",
+      "Integrity": "lo9YI82OF03vojdu+XOR3+DRrLIpMhpzZNmHbM5CDMA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css"
+    },
+    {
+      "Identity": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "SourceId": "demo-wise",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "BasePath": "_content/demo-wise",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -476,6 +655,7 @@
       "Integrity": "RXJ/QZiBfHXoPtXR2EgC+bFo2pe3GtbZO722RtiLGzQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
@@ -483,6 +663,15 @@
       "SourceId": "demo-wise",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\",
+=======
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Identity": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "SourceId": "demo-wise",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "BasePath": "_content/demo-wise",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -493,6 +682,7 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+<<<<<<< HEAD
       "Fingerprint": "tmc1g35s3z",
       "Integrity": "y72bT5TKmFmfvw3bNEzPRNZa/8595xtseZIcBUV0PdM=",
       "CopyToOutputDirectory": "Never",
@@ -504,6 +694,19 @@
       "SourceId": "demo-wise",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\",
+=======
+      "Fingerprint": "b7pk76d08c",
+      "Integrity": "l8vt5oozv958eMd9TFsPAWgl9JJK9YKfbVSs8mchQ84=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Identity": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "SourceId": "demo-wise",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "BasePath": "_content/demo-wise",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -518,6 +721,7 @@
       "Integrity": "0eqVT62kqRLJh9oTqLeIH4UnQskqVjib8hl2fXxl4lg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
@@ -525,6 +729,15 @@
       "SourceId": "demo-wise",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\",
+=======
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Identity": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "SourceId": "demo-wise",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "BasePath": "_content/demo-wise",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -535,6 +748,7 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+<<<<<<< HEAD
       "Fingerprint": "rxsg74s51o",
       "Integrity": "gRKIHVkBgnCPUs/hmZsXynZ9ZJpvsE77idtljDkrWGI=",
       "CopyToOutputDirectory": "Never",
@@ -546,6 +760,19 @@
       "SourceId": "demo-wise",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\",
+=======
+      "Fingerprint": "rzd6atqjts",
+      "Integrity": "V8psnHoJS/MPlCXWwc/J3tGtp9c3gGFRmqsIQgpn+Gg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+    },
+    {
+      "Identity": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "SourceId": "demo-wise",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "BasePath": "_content/demo-wise",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -560,6 +787,7 @@
       "Integrity": "OoQVwh7Arp7bVoK2ZiTx2S//KrnPrSPzPZ93CqCMhe8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
@@ -567,6 +795,15 @@
       "SourceId": "demo-wise",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\",
+=======
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Identity": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "SourceId": "demo-wise",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "BasePath": "_content/demo-wise",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -577,6 +814,7 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+<<<<<<< HEAD
       "Fingerprint": "q9ht133ko3",
       "Integrity": "UkajePbMzGj8y73Imkd3dWWnLJr0v2CrBCLMrVMleP8=",
       "CopyToOutputDirectory": "Never",
@@ -588,6 +826,19 @@
       "SourceId": "demo-wise",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\",
+=======
+      "Fingerprint": "dxx9fxp4il",
+      "Integrity": "/8jh8hcEMFKyS6goWqnNu7t3EzZPCGdQZgO6sCkI8tI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Identity": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "SourceId": "demo-wise",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "BasePath": "_content/demo-wise",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -602,6 +853,7 @@
       "Integrity": "910zw+rMdcg0Ls48ATp65vEn8rd5HvPxOKm2x3/CBII=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
@@ -609,6 +861,15 @@
       "SourceId": "demo-wise",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\",
+=======
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Identity": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "SourceId": "demo-wise",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "BasePath": "_content/demo-wise",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -619,6 +880,7 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+<<<<<<< HEAD
       "Fingerprint": "gye83jo8yx",
       "Integrity": "uIzOR4gILoNjCGNryIsWnkEGO3BSwRa/MLjr73tDodE=",
       "CopyToOutputDirectory": "Never",
@@ -630,6 +892,19 @@
       "SourceId": "demo-wise",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\",
+=======
+      "Fingerprint": "khv3u5hwcm",
+      "Integrity": "2BubgNUPlQSF/0wLFcRXQ/Yjzk9vsUbDAeK2QM+h+yo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css"
+    },
+    {
+      "Identity": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "SourceId": "demo-wise",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "BasePath": "_content/demo-wise",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -644,6 +919,7 @@
       "Integrity": "Nfjrc4Ur9Fv2oBEswQWIyBnNDP99q+LhL+z9553O0cY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
@@ -651,6 +927,15 @@
       "SourceId": "demo-wise",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\",
+=======
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+    },
+    {
+      "Identity": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "SourceId": "demo-wise",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "BasePath": "_content/demo-wise",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -661,6 +946,7 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+<<<<<<< HEAD
       "Fingerprint": "wl58j5mj3v",
       "Integrity": "ZBXbYF8OZrF1GDOLMLvW/zRPtx1RfeMDYj5D2Wb/9jo=",
       "CopyToOutputDirectory": "Never",
@@ -672,6 +958,19 @@
       "SourceId": "demo-wise",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\",
+=======
+      "Fingerprint": "lcd1t2u6c8",
+      "Integrity": "KyE9xbKO9CuYx0HXpIKgsWIvXkAfITtiQ172j26wmRs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+    },
+    {
+      "Identity": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "SourceId": "demo-wise",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "BasePath": "_content/demo-wise",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -686,6 +985,7 @@
       "Integrity": "rHDmip4JZzuaGOcSQ1QSQrIbG0Eb3Zja9whqSF1zYIU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
@@ -693,6 +993,15 @@
       "SourceId": "demo-wise",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\",
+=======
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+    },
+    {
+      "Identity": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "SourceId": "demo-wise",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "BasePath": "_content/demo-wise",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -703,6 +1012,7 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+<<<<<<< HEAD
       "Fingerprint": "d4r6k3f320",
       "Integrity": "MwFckg8YbY2WrveNQnXkfULkprYhFOq+t1BH92A7GsI=",
       "CopyToOutputDirectory": "Never",
@@ -714,6 +1024,19 @@
       "SourceId": "demo-wise",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\",
+=======
+      "Fingerprint": "tdbxkamptv",
+      "Integrity": "H6wkBbSwjua2veJoThJo4uy161jp+DOiZTloUlcZ6qQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+    },
+    {
+      "Identity": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "SourceId": "demo-wise",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "BasePath": "_content/demo-wise",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -728,6 +1051,7 @@
       "Integrity": "p0BVq5Ve/dohBIdfbrZsoQNu02JSsKh1g0wbyiQiUaU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
@@ -735,6 +1059,15 @@
       "SourceId": "demo-wise",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\",
+=======
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Identity": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "SourceId": "demo-wise",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "BasePath": "_content/demo-wise",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -745,6 +1078,7 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+<<<<<<< HEAD
       "Fingerprint": "keugtjm085",
       "Integrity": "7MYEMUFgHEc1CjrfAK/TlV30POxgoxXk2b+vAs/143U=",
       "CopyToOutputDirectory": "Never",
@@ -756,6 +1090,19 @@
       "SourceId": "demo-wise",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\",
+=======
+      "Fingerprint": "06098lyss8",
+      "Integrity": "GAUum6FjwQ8HrXGaoFRnHTqQQLpljXGavT7mBX8E9qU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Identity": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "SourceId": "demo-wise",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "BasePath": "_content/demo-wise",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -770,6 +1117,7 @@
       "Integrity": "o8XK32mcY/FfcOQ1D2HJvVuZ0YTXSURZDLXCK0fnQeA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
@@ -777,6 +1125,183 @@
       "SourceId": "demo-wise",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\",
+=======
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Identity": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "SourceId": "demo-wise",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/",
+      "BasePath": "_content/demo-wise",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "Server",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "s35ty4nyc5",
+      "Integrity": "GKEF18s44B5e0MolXAkpkqLiEbOVlKf6VyYr/G/E6pw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.css"
+    },
+    {
+      "Identity": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "SourceId": "demo-wise",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/",
+      "BasePath": "_content/demo-wise",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.css#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "Server",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pj5nd1wqec",
+      "Integrity": "KzNVR3p7UZGba94dnCtlc6jXjK5urSPiZ/eNnKTmDkw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.css.map"
+    },
+    {
+      "Identity": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "SourceId": "demo-wise",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/",
+      "BasePath": "_content/demo-wise",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "Server",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "46ein0sx1k",
+      "Integrity": "PI8n5gCcz9cQqQXm3PEtDuPG8qx9oFsFctPg0S5zb8g=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "Identity": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "SourceId": "demo-wise",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/",
+      "BasePath": "_content/demo-wise",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "Server",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "v0zj4ognzu",
+      "Integrity": "8SM4U2NQpCLGTQLW5D/x3qSTwxVq2CP+GXYc3V1WwFs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map"
+    },
+    {
+      "Identity": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "SourceId": "demo-wise",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/",
+      "BasePath": "_content/demo-wise",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "Server",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "37tfw0ft22",
+      "Integrity": "j5E4XIj1p1kNnDi0x1teX9RXoh1/FNlPvCML9YmRh2Q=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css"
+    },
+    {
+      "Identity": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "SourceId": "demo-wise",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/",
+      "BasePath": "_content/demo-wise",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "Server",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hrwsygsryq",
+      "Integrity": "3bYWUiiVYMZfv2wq5JnXIsHlQKgSKs/VcRivgjgZ1ho=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+    },
+    {
+      "Identity": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "SourceId": "demo-wise",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/",
+      "BasePath": "_content/demo-wise",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "Server",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pk9g2wxc8p",
+      "Integrity": "h5lE7Nm8SkeIpBHHYxN99spP3VuGFKl5NZgsocil7zk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+    },
+    {
+      "Identity": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "SourceId": "demo-wise",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/",
+      "BasePath": "_content/demo-wise",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css#[.{fingerprint}]?.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "Server",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ft3s53vfgj",
+      "Integrity": "rTzXlnepcb/vgFAiB+U7ODQAfOlJLfM3gY6IU7eIANk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Identity": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "SourceId": "demo-wise",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "BasePath": "_content/demo-wise",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -787,6 +1312,7 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+<<<<<<< HEAD
       "Fingerprint": "4094rpi4f9",
       "Integrity": "bNojyBU9M3Cv/K4YqdKkq4xeaAkchkkS7HXP7554z9Y=",
       "CopyToOutputDirectory": "Never",
@@ -798,6 +1324,19 @@
       "SourceId": "demo-wise",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\",
+=======
+      "Fingerprint": "6cfz1n2cew",
+      "Integrity": "mkoRoV24jV+rCPWcHDR5awPx8VuzzJKN0ibhxZ9/WaM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js"
+    },
+    {
+      "Identity": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "SourceId": "demo-wise",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "BasePath": "_content/demo-wise",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -812,6 +1351,7 @@
       "Integrity": "Wq4aWW1rQdJ+6oAgy1JQc9IBjHL9T3MKfXTBNqOv02c=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
@@ -819,6 +1359,15 @@
       "SourceId": "demo-wise",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\",
+=======
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Identity": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "SourceId": "demo-wise",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "BasePath": "_content/demo-wise",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -829,6 +1378,7 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+<<<<<<< HEAD
       "Fingerprint": "hd3gran6i8",
       "Integrity": "6zfk2L8R3wCgRbZzpkEi7UYC2bc6fYGIgFfNeqyOWnQ=",
       "CopyToOutputDirectory": "Never",
@@ -840,6 +1390,19 @@
       "SourceId": "demo-wise",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\",
+=======
+      "Fingerprint": "493y06b0oq",
+      "Integrity": "CDOy6cOibCWEdsRiZuaHf8dSGGJRYuBGC+mjoJimHGw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Identity": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "SourceId": "demo-wise",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "BasePath": "_content/demo-wise",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -854,6 +1417,7 @@
       "Integrity": "Xj4HYxZBQ7qqHKBwa2EAugRS+RHWzpcTtI49vgezUSU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
@@ -861,6 +1425,15 @@
       "SourceId": "demo-wise",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\",
+=======
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Identity": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "SourceId": "demo-wise",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "BasePath": "_content/demo-wise",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -871,6 +1444,7 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+<<<<<<< HEAD
       "Fingerprint": "ltid2c489k",
       "Integrity": "idJzCWndWIhl4ZZvXbuLRTe5wquRfykXbEiDpO7ZsFk=",
       "CopyToOutputDirectory": "Never",
@@ -882,6 +1456,19 @@
       "SourceId": "demo-wise",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\",
+=======
+      "Fingerprint": "vr1egmr9el",
+      "Integrity": "exiXZNJDwucXfuje3CbXPbuS6+Ery3z9sP+pgmvh8nA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js"
+    },
+    {
+      "Identity": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "SourceId": "demo-wise",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "BasePath": "_content/demo-wise",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -896,6 +1483,7 @@
       "Integrity": "EPRLgpqWkahLxEn6CUjdM76RIYIw1xdHwTbeHssuj/4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
@@ -903,6 +1491,15 @@
       "SourceId": "demo-wise",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\",
+=======
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+    },
+    {
+      "Identity": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "SourceId": "demo-wise",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "BasePath": "_content/demo-wise",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -913,6 +1510,7 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+<<<<<<< HEAD
       "Fingerprint": "8vyfqsqgz1",
       "Integrity": "REjSeieVKd00nAKwd6dv7MMhuVKvKctPmLI4iDRs/cc=",
       "CopyToOutputDirectory": "Never",
@@ -924,6 +1522,19 @@
       "SourceId": "demo-wise",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\",
+=======
+      "Fingerprint": "jj8uyg4cgr",
+      "Integrity": "QZdFT1ZNdly4rmgUBtXmXFS9BU1FTa+sPe6h794sFRQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+    },
+    {
+      "Identity": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "SourceId": "demo-wise",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "BasePath": "_content/demo-wise",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -938,6 +1549,7 @@
       "Integrity": "Tsbv8z6VlNgVET8xvz/yLo/v5iJHTAj2J4hkhjP1rHM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
@@ -945,6 +1557,15 @@
       "SourceId": "demo-wise",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\",
+=======
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+    },
+    {
+      "Identity": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "SourceId": "demo-wise",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "BasePath": "_content/demo-wise",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -955,6 +1576,7 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+<<<<<<< HEAD
       "Fingerprint": "u9q1upor1n",
       "Integrity": "vqK8KwEVuWidx0Ddm5m5LyBriPDPl9TcjrKZQhkFSVA=",
       "CopyToOutputDirectory": "Never",
@@ -966,6 +1588,19 @@
       "SourceId": "demo-wise",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\",
+=======
+      "Fingerprint": "notf2xhcfb",
+      "Integrity": "+UW802wgVfnjaSbdwyHLlU7AVplb0WToOlvN1CnzIac=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.js"
+    },
+    {
+      "Identity": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "SourceId": "demo-wise",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "BasePath": "_content/demo-wise",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -980,6 +1615,7 @@
       "Integrity": "9Wr7Hxe8gCJDoIHh5xP29ldXvC3kN2GkifQj9c8vYx4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
@@ -987,6 +1623,15 @@
       "SourceId": "demo-wise",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\",
+=======
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.js.map"
+    },
+    {
+      "Identity": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "SourceId": "demo-wise",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "BasePath": "_content/demo-wise",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -997,6 +1642,7 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+<<<<<<< HEAD
       "Fingerprint": "4d85u1mtcx",
       "Integrity": "aCTIqw9op0XQGYnNe1649V7fnihACD48OP3M8BP2xVM=",
       "CopyToOutputDirectory": "Never",
@@ -1008,6 +1654,19 @@
       "SourceId": "demo-wise",
       "SourceType": "Discovered",
       "ContentRoot": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\",
+=======
+      "Fingerprint": "63fj8s7r0e",
+      "Integrity": "3gQJhtmj7YnV1fmtbVcnAV6eI4ws0Tr48bVZCThtCGQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.min.js"
+    },
+    {
+      "Identity": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "SourceId": "demo-wise",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "BasePath": "_content/demo-wise",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js#[.{fingerprint}]?.map",
       "AssetKind": "All",
@@ -1022,13 +1681,21 @@
       "Integrity": "ZI01e/ns473GKvACG4McggJdxvFfFIw4xspwQiG8Ye4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+=======
+      "OriginalItemSpec": "wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
     }
   ],
   "Endpoints": [
     {
       "Route": "app.css",
+<<<<<<< HEAD
       "AssetFile": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\app.css",
+=======
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/app.css",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1037,7 +1704,11 @@
         },
         {
           "Name": "Content-Length",
+<<<<<<< HEAD
           "Value": "2900"
+=======
+          "Value": "2841"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Content-Type",
@@ -1045,11 +1716,19 @@
         },
         {
           "Name": "ETag",
+<<<<<<< HEAD
           "Value": "\"aNPcLFwdCCGS2v1guSR64Htd4Ly5uclT7taAptnMPbs=\""
         },
         {
           "Name": "Last-Modified",
           "Value": "Thu, 26 Dec 2024 06:11:11 GMT"
+=======
+          "Value": "\"PNvEyASL960qpWmVJ5Purzbr0F4hodQnu+u/XkKHuE0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Cache-Control",
@@ -1059,13 +1738,22 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
+<<<<<<< HEAD
           "Value": "sha256-aNPcLFwdCCGS2v1guSR64Htd4Ly5uclT7taAptnMPbs="
+=======
+          "Value": "sha256-PNvEyASL960qpWmVJ5Purzbr0F4hodQnu+u/XkKHuE0="
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         }
       ]
     },
     {
+<<<<<<< HEAD
       "Route": "app.khy4lop6wu.css",
       "AssetFile": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\app.css",
+=======
+      "Route": "app.w7mf952350.css",
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/app.css",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1074,7 +1762,11 @@
         },
         {
           "Name": "Content-Length",
+<<<<<<< HEAD
           "Value": "2900"
+=======
+          "Value": "2841"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Content-Type",
@@ -1082,11 +1774,19 @@
         },
         {
           "Name": "ETag",
+<<<<<<< HEAD
           "Value": "\"aNPcLFwdCCGS2v1guSR64Htd4Ly5uclT7taAptnMPbs=\""
         },
         {
           "Name": "Last-Modified",
           "Value": "Thu, 26 Dec 2024 06:11:11 GMT"
+=======
+          "Value": "\"PNvEyASL960qpWmVJ5Purzbr0F4hodQnu+u/XkKHuE0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Cache-Control",
@@ -1096,7 +1796,11 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
+<<<<<<< HEAD
           "Value": "khy4lop6wu"
+=======
+          "Value": "w7mf952350"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "label",
@@ -1104,13 +1808,21 @@
         },
         {
           "Name": "integrity",
+<<<<<<< HEAD
           "Value": "sha256-aNPcLFwdCCGS2v1guSR64Htd4Ly5uclT7taAptnMPbs="
+=======
+          "Value": "sha256-PNvEyASL960qpWmVJ5Purzbr0F4hodQnu+u/XkKHuE0="
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         }
       ]
     },
     {
       "Route": "demo-wise.bundle.scp.css",
+<<<<<<< HEAD
       "AssetFile": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\demo-wise.bundle.scp.css",
+=======
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/obj/Debug/net8.0/scopedcss/projectbundle/demo-wise.bundle.scp.css",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1119,7 +1831,11 @@
         },
         {
           "Name": "Content-Length",
+<<<<<<< HEAD
           "Value": "5965"
+=======
+          "Value": "5760"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Content-Type",
@@ -1127,11 +1843,19 @@
         },
         {
           "Name": "ETag",
+<<<<<<< HEAD
           "Value": "\"aaEhsgHearAAOV9J2aSNxmMkrYKWkpQBV8Qner2bV/Q=\""
         },
         {
           "Name": "Last-Modified",
           "Value": "Fri, 27 Dec 2024 01:39:39 GMT"
+=======
+          "Value": "\"O2QNMb3sljNOMX2y9ninKtvLIWjJDci/SlVl9DCiqyA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 19:47:52 GMT"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Cache-Control",
@@ -1141,13 +1865,22 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
+<<<<<<< HEAD
           "Value": "sha256-aaEhsgHearAAOV9J2aSNxmMkrYKWkpQBV8Qner2bV/Q="
+=======
+          "Value": "sha256-O2QNMb3sljNOMX2y9ninKtvLIWjJDci/SlVl9DCiqyA="
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         }
       ]
     },
     {
+<<<<<<< HEAD
       "Route": "demo-wise.pojznj3ukx.bundle.scp.css",
       "AssetFile": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\demo-wise.bundle.scp.css",
+=======
+      "Route": "demo-wise.jmlr6eoaf5.bundle.scp.css",
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/obj/Debug/net8.0/scopedcss/projectbundle/demo-wise.bundle.scp.css",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1156,7 +1889,11 @@
         },
         {
           "Name": "Content-Length",
+<<<<<<< HEAD
           "Value": "5965"
+=======
+          "Value": "5760"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Content-Type",
@@ -1164,11 +1901,19 @@
         },
         {
           "Name": "ETag",
+<<<<<<< HEAD
           "Value": "\"aaEhsgHearAAOV9J2aSNxmMkrYKWkpQBV8Qner2bV/Q=\""
         },
         {
           "Name": "Last-Modified",
           "Value": "Fri, 27 Dec 2024 01:39:39 GMT"
+=======
+          "Value": "\"O2QNMb3sljNOMX2y9ninKtvLIWjJDci/SlVl9DCiqyA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 19:47:52 GMT"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Cache-Control",
@@ -1178,7 +1923,11 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
+<<<<<<< HEAD
           "Value": "pojznj3ukx"
+=======
+          "Value": "jmlr6eoaf5"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "label",
@@ -1186,13 +1935,22 @@
         },
         {
           "Name": "integrity",
+<<<<<<< HEAD
           "Value": "sha256-aaEhsgHearAAOV9J2aSNxmMkrYKWkpQBV8Qner2bV/Q="
+=======
+          "Value": "sha256-O2QNMb3sljNOMX2y9ninKtvLIWjJDci/SlVl9DCiqyA="
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         }
       ]
     },
     {
+<<<<<<< HEAD
       "Route": "demo-wise.pojznj3ukx.styles.css",
       "AssetFile": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\obj\\Debug\\net8.0\\scopedcss\\bundle\\demo-wise.styles.css",
+=======
+      "Route": "demo-wise.jmlr6eoaf5.styles.css",
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/obj/Debug/net8.0/scopedcss/bundle/demo-wise.styles.css",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1201,7 +1959,11 @@
         },
         {
           "Name": "Content-Length",
+<<<<<<< HEAD
           "Value": "5965"
+=======
+          "Value": "5760"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Content-Type",
@@ -1209,11 +1971,19 @@
         },
         {
           "Name": "ETag",
+<<<<<<< HEAD
           "Value": "\"aaEhsgHearAAOV9J2aSNxmMkrYKWkpQBV8Qner2bV/Q=\""
         },
         {
           "Name": "Last-Modified",
           "Value": "Fri, 27 Dec 2024 01:39:39 GMT"
+=======
+          "Value": "\"O2QNMb3sljNOMX2y9ninKtvLIWjJDci/SlVl9DCiqyA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 19:47:52 GMT"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Cache-Control",
@@ -1223,7 +1993,11 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
+<<<<<<< HEAD
           "Value": "pojznj3ukx"
+=======
+          "Value": "jmlr6eoaf5"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "label",
@@ -1231,13 +2005,21 @@
         },
         {
           "Name": "integrity",
+<<<<<<< HEAD
           "Value": "sha256-aaEhsgHearAAOV9J2aSNxmMkrYKWkpQBV8Qner2bV/Q="
+=======
+          "Value": "sha256-O2QNMb3sljNOMX2y9ninKtvLIWjJDci/SlVl9DCiqyA="
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         }
       ]
     },
     {
       "Route": "demo-wise.styles.css",
+<<<<<<< HEAD
       "AssetFile": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\obj\\Debug\\net8.0\\scopedcss\\bundle\\demo-wise.styles.css",
+=======
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/obj/Debug/net8.0/scopedcss/bundle/demo-wise.styles.css",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1246,7 +2028,11 @@
         },
         {
           "Name": "Content-Length",
+<<<<<<< HEAD
           "Value": "5965"
+=======
+          "Value": "5760"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Content-Type",
@@ -1254,11 +2040,19 @@
         },
         {
           "Name": "ETag",
+<<<<<<< HEAD
           "Value": "\"aaEhsgHearAAOV9J2aSNxmMkrYKWkpQBV8Qner2bV/Q=\""
         },
         {
           "Name": "Last-Modified",
           "Value": "Fri, 27 Dec 2024 01:39:39 GMT"
+=======
+          "Value": "\"O2QNMb3sljNOMX2y9ninKtvLIWjJDci/SlVl9DCiqyA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 19:47:52 GMT"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Cache-Control",
@@ -1268,13 +2062,21 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
+<<<<<<< HEAD
           "Value": "sha256-aaEhsgHearAAOV9J2aSNxmMkrYKWkpQBV8Qner2bV/Q="
+=======
+          "Value": "sha256-O2QNMb3sljNOMX2y9ninKtvLIWjJDci/SlVl9DCiqyA="
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         }
       ]
     },
     {
       "Route": "favicon.ifv42okdf2.png",
+<<<<<<< HEAD
       "AssetFile": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\favicon.png",
+=======
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/favicon.png",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1295,7 +2097,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 26 Dec 2024 06:11:10 GMT"
+=======
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Cache-Control",
@@ -1319,7 +2125,11 @@
     },
     {
       "Route": "favicon.png",
+<<<<<<< HEAD
       "AssetFile": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\favicon.png",
+=======
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/favicon.png",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1340,7 +2150,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 26 Dec 2024 06:11:10 GMT"
+=======
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Cache-Control",
@@ -1355,8 +2169,13 @@
       ]
     },
     {
+<<<<<<< HEAD
       "Route": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetFile": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+=======
+      "Route": "lib/bootstrap/dist/css/bootstrap-grid.bqjiyaj88i.css",
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1365,7 +2184,11 @@
         },
         {
           "Name": "Content-Length",
+<<<<<<< HEAD
           "Value": "293102"
+=======
+          "Value": "70329"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Content-Type",
@@ -1373,6 +2196,7 @@
         },
         {
           "Name": "ETag",
+<<<<<<< HEAD
           "Value": "\"CzmECrtXV8BSk/+8SG+Rw7Fr+3hCt2bS2bEkS4YD3PQ=\""
         },
         {
@@ -1452,6 +2276,13 @@
         {
           "Name": "Last-Modified",
           "Value": "Thu, 26 Dec 2024 06:11:11 GMT"
+=======
+          "Value": "\"Yy5/hBqRmmU2MJ1TKwP2aXoTO6+OjzrLmJIsC2Wy4H8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Cache-Control",
@@ -1461,6 +2292,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
+<<<<<<< HEAD
           "Value": "pj5nd1wqec"
         },
         {
@@ -2007,12 +2839,27 @@
         {
           "Name": "integrity",
           "Value": "sha256-CzmECrtXV8BSk/+8SG+Rw7Fr+3hCt2bS2bEkS4YD3PQ="
+=======
+          "Value": "bqjiyaj88i"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap-grid.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Yy5/hBqRmmU2MJ1TKwP2aXoTO6+OjzrLmJIsC2Wy4H8="
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         }
       ]
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css",
+<<<<<<< HEAD
       "AssetFile": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+=======
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2021,7 +2868,11 @@
         },
         {
           "Name": "Content-Length",
+<<<<<<< HEAD
           "Value": "74413"
+=======
+          "Value": "70329"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Content-Type",
@@ -2029,11 +2880,19 @@
         },
         {
           "Name": "ETag",
+<<<<<<< HEAD
           "Value": "\"f4c8YV1qrr6RSiVYWMQT7R5W2OkT+iXmE5H69/uRvGQ=\""
         },
         {
           "Name": "Last-Modified",
           "Value": "Thu, 26 Dec 2024 06:11:11 GMT"
+=======
+          "Value": "\"Yy5/hBqRmmU2MJ1TKwP2aXoTO6+OjzrLmJIsC2Wy4H8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Cache-Control",
@@ -2043,13 +2902,21 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
+<<<<<<< HEAD
           "Value": "sha256-f4c8YV1qrr6RSiVYWMQT7R5W2OkT+iXmE5H69/uRvGQ="
+=======
+          "Value": "sha256-Yy5/hBqRmmU2MJ1TKwP2aXoTO6+OjzrLmJIsC2Wy4H8="
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         }
       ]
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css.c2jlpeoesf.map",
+<<<<<<< HEAD
       "AssetFile": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+=======
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2070,7 +2937,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 26 Dec 2024 06:11:11 GMT"
+=======
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Cache-Control",
@@ -2094,7 +2965,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
+<<<<<<< HEAD
       "AssetFile": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+=======
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2115,7 +2990,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 26 Dec 2024 06:11:11 GMT"
+=======
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Cache-Control",
@@ -2131,7 +3010,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
+<<<<<<< HEAD
       "AssetFile": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+=======
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2140,7 +3023,11 @@
         },
         {
           "Name": "Content-Length",
+<<<<<<< HEAD
           "Value": "51800"
+=======
+          "Value": "51795"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Content-Type",
@@ -2148,11 +3035,19 @@
         },
         {
           "Name": "ETag",
+<<<<<<< HEAD
           "Value": "\"hN2ttMG/K3wQlFrN3SbQ1YF4tIJHCE4oYP+QibT3vOY=\""
         },
         {
           "Name": "Last-Modified",
           "Value": "Thu, 26 Dec 2024 06:11:11 GMT"
+=======
+          "Value": "\"5nDHMGiyfZHl3UXePuhLDQR9ncPfBR1HJeZLXyJNV24=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Cache-Control",
@@ -2162,13 +3057,21 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
+<<<<<<< HEAD
           "Value": "sha256-hN2ttMG/K3wQlFrN3SbQ1YF4tIJHCE4oYP+QibT3vOY="
+=======
+          "Value": "sha256-5nDHMGiyfZHl3UXePuhLDQR9ncPfBR1HJeZLXyJNV24="
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         }
       ]
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css.aexeepp0ev.map",
+<<<<<<< HEAD
       "AssetFile": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+=======
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2189,7 +3092,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 26 Dec 2024 06:11:11 GMT"
+=======
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Cache-Control",
@@ -2213,7 +3120,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+<<<<<<< HEAD
       "AssetFile": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+=======
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2234,7 +3145,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 26 Dec 2024 06:11:11 GMT"
+=======
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Cache-Control",
@@ -2249,8 +3164,13 @@
       ]
     },
     {
+<<<<<<< HEAD
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.sejl45xvog.css",
       "AssetFile": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+=======
+      "Route": "lib/bootstrap/dist/css/bootstrap-grid.min.erw9l3u2r3.css",
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2259,7 +3179,11 @@
         },
         {
           "Name": "Content-Length",
+<<<<<<< HEAD
           "Value": "51800"
+=======
+          "Value": "51795"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Content-Type",
@@ -2267,11 +3191,19 @@
         },
         {
           "Name": "ETag",
+<<<<<<< HEAD
           "Value": "\"hN2ttMG/K3wQlFrN3SbQ1YF4tIJHCE4oYP+QibT3vOY=\""
         },
         {
           "Name": "Last-Modified",
           "Value": "Thu, 26 Dec 2024 06:11:11 GMT"
+=======
+          "Value": "\"5nDHMGiyfZHl3UXePuhLDQR9ncPfBR1HJeZLXyJNV24=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Cache-Control",
@@ -2281,7 +3213,11 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
+<<<<<<< HEAD
           "Value": "sejl45xvog"
+=======
+          "Value": "erw9l3u2r3"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "label",
@@ -2289,13 +3225,21 @@
         },
         {
           "Name": "integrity",
+<<<<<<< HEAD
           "Value": "sha256-hN2ttMG/K3wQlFrN3SbQ1YF4tIJHCE4oYP+QibT3vOY="
+=======
+          "Value": "sha256-5nDHMGiyfZHl3UXePuhLDQR9ncPfBR1HJeZLXyJNV24="
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         }
       ]
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+<<<<<<< HEAD
       "AssetFile": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+=======
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2304,7 +3248,11 @@
         },
         {
           "Name": "Content-Length",
+<<<<<<< HEAD
           "Value": "74486"
+=======
+          "Value": "70403"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Content-Type",
@@ -2312,11 +3260,19 @@
         },
         {
           "Name": "ETag",
+<<<<<<< HEAD
           "Value": "\"M15fHTKfMK6cTars5c28PNhN6hD0qeUb3HPzOdoPwCc=\""
         },
         {
           "Name": "Last-Modified",
           "Value": "Thu, 26 Dec 2024 06:11:11 GMT"
+=======
+          "Value": "\"CZxoF8zjaLlyVkcvVCDlc8CeQR1w1RMrvgYx30cs8kM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Cache-Control",
@@ -2326,13 +3282,21 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
+<<<<<<< HEAD
           "Value": "sha256-M15fHTKfMK6cTars5c28PNhN6hD0qeUb3HPzOdoPwCc="
+=======
+          "Value": "sha256-CZxoF8zjaLlyVkcvVCDlc8CeQR1w1RMrvgYx30cs8kM="
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         }
       ]
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.ausgxo2sd3.map",
+<<<<<<< HEAD
       "AssetFile": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+=======
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2353,7 +3317,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 26 Dec 2024 06:11:11 GMT"
+=======
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Cache-Control",
@@ -2377,7 +3345,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+<<<<<<< HEAD
       "AssetFile": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+=======
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2398,7 +3370,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 26 Dec 2024 06:11:11 GMT"
+=======
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Cache-Control",
@@ -2413,8 +3389,13 @@
       ]
     },
     {
+<<<<<<< HEAD
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.22vffe00uq.css",
       "AssetFile": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+=======
+      "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.d7shbmvgxk.css",
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2423,7 +3404,11 @@
         },
         {
           "Name": "Content-Length",
+<<<<<<< HEAD
           "Value": "51875"
+=======
+          "Value": "70403"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Content-Type",
@@ -2431,11 +3416,19 @@
         },
         {
           "Name": "ETag",
+<<<<<<< HEAD
           "Value": "\"+rGG3u63SMkHL80Ga42LAawPUj7i8vaR2Kuenqlta2E=\""
         },
         {
           "Name": "Last-Modified",
           "Value": "Thu, 26 Dec 2024 06:11:11 GMT"
+=======
+          "Value": "\"CZxoF8zjaLlyVkcvVCDlc8CeQR1w1RMrvgYx30cs8kM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Cache-Control",
@@ -2445,6 +3438,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
+<<<<<<< HEAD
           "Value": "22vffe00uq"
         },
         {
@@ -2454,12 +3448,27 @@
         {
           "Name": "integrity",
           "Value": "sha256-+rGG3u63SMkHL80Ga42LAawPUj7i8vaR2Kuenqlta2E="
+=======
+          "Value": "d7shbmvgxk"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CZxoF8zjaLlyVkcvVCDlc8CeQR1w1RMrvgYx30cs8kM="
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         }
       ]
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+<<<<<<< HEAD
       "AssetFile": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+=======
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2468,7 +3477,11 @@
         },
         {
           "Name": "Content-Length",
+<<<<<<< HEAD
           "Value": "51875"
+=======
+          "Value": "51870"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Content-Type",
@@ -2476,11 +3489,19 @@
         },
         {
           "Name": "ETag",
+<<<<<<< HEAD
           "Value": "\"+rGG3u63SMkHL80Ga42LAawPUj7i8vaR2Kuenqlta2E=\""
         },
         {
           "Name": "Last-Modified",
           "Value": "Thu, 26 Dec 2024 06:11:11 GMT"
+=======
+          "Value": "\"vMxTcvkC4Ly7LiAT3G8yEy9EpTr7Fge4SczWp07/p3k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Cache-Control",
@@ -2490,13 +3511,21 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
+<<<<<<< HEAD
           "Value": "sha256-+rGG3u63SMkHL80Ga42LAawPUj7i8vaR2Kuenqlta2E="
+=======
+          "Value": "sha256-vMxTcvkC4Ly7LiAT3G8yEy9EpTr7Fge4SczWp07/p3k="
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         }
       ]
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.cosvhxvwiu.map",
+<<<<<<< HEAD
       "AssetFile": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+=======
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2517,7 +3546,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 26 Dec 2024 06:11:11 GMT"
+=======
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Cache-Control",
@@ -2541,7 +3574,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+<<<<<<< HEAD
       "AssetFile": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+=======
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2562,7 +3599,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 26 Dec 2024 06:11:11 GMT"
+=======
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Cache-Control",
@@ -2577,8 +3618,13 @@
       ]
     },
     {
+<<<<<<< HEAD
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.xvp3kq03qx.css",
       "AssetFile": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+=======
+      "Route": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.k8d9w2qqmf.css",
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2587,7 +3633,11 @@
         },
         {
           "Name": "Content-Length",
+<<<<<<< HEAD
           "Value": "74486"
+=======
+          "Value": "51870"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Content-Type",
@@ -2595,11 +3645,19 @@
         },
         {
           "Name": "ETag",
+<<<<<<< HEAD
           "Value": "\"M15fHTKfMK6cTars5c28PNhN6hD0qeUb3HPzOdoPwCc=\""
         },
         {
           "Name": "Last-Modified",
           "Value": "Thu, 26 Dec 2024 06:11:11 GMT"
+=======
+          "Value": "\"vMxTcvkC4Ly7LiAT3G8yEy9EpTr7Fge4SczWp07/p3k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Cache-Control",
@@ -2609,6 +3667,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
+<<<<<<< HEAD
           "Value": "xvp3kq03qx"
         },
         {
@@ -2663,12 +3722,27 @@
         {
           "Name": "integrity",
           "Value": "sha256-f4c8YV1qrr6RSiVYWMQT7R5W2OkT+iXmE5H69/uRvGQ="
+=======
+          "Value": "k8d9w2qqmf"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vMxTcvkC4Ly7LiAT3G8yEy9EpTr7Fge4SczWp07/p3k="
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         }
       ]
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css",
+<<<<<<< HEAD
       "AssetFile": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+=======
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2677,7 +3751,11 @@
         },
         {
           "Name": "Content-Length",
+<<<<<<< HEAD
           "Value": "12661"
+=======
+          "Value": "12065"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Content-Type",
@@ -2685,11 +3763,19 @@
         },
         {
           "Name": "ETag",
+<<<<<<< HEAD
           "Value": "\"rjusxCRzKjztCcfgOVduAc3e3Z7KvimJGokJSeADNmE=\""
         },
         {
           "Name": "Last-Modified",
           "Value": "Thu, 26 Dec 2024 06:11:11 GMT"
+=======
+          "Value": "\"lo9YI82OF03vojdu+XOR3+DRrLIpMhpzZNmHbM5CDMA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Cache-Control",
@@ -2699,13 +3785,21 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
+<<<<<<< HEAD
           "Value": "sha256-rjusxCRzKjztCcfgOVduAc3e3Z7KvimJGokJSeADNmE="
+=======
+          "Value": "sha256-lo9YI82OF03vojdu+XOR3+DRrLIpMhpzZNmHbM5CDMA="
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         }
       ]
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css.fvhpjtyr6v.map",
+<<<<<<< HEAD
       "AssetFile": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+=======
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2726,7 +3820,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 26 Dec 2024 06:11:11 GMT"
+=======
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Cache-Control",
@@ -2750,7 +3848,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+<<<<<<< HEAD
       "AssetFile": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+=======
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2771,7 +3873,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 26 Dec 2024 06:11:11 GMT"
+=======
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Cache-Control",
@@ -2786,8 +3892,13 @@
       ]
     },
     {
+<<<<<<< HEAD
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetFile": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+=======
+      "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.b7pk76d08c.css",
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2796,7 +3907,11 @@
         },
         {
           "Name": "Content-Length",
+<<<<<<< HEAD
           "Value": "10131"
+=======
+          "Value": "10126"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Content-Type",
@@ -2804,11 +3919,64 @@
         },
         {
           "Name": "ETag",
+<<<<<<< HEAD
           "Value": "\"y72bT5TKmFmfvw3bNEzPRNZa/8595xtseZIcBUV0PdM=\""
         },
         {
           "Name": "Last-Modified",
           "Value": "Thu, 26 Dec 2024 06:11:11 GMT"
+=======
+          "Value": "\"l8vt5oozv958eMd9TFsPAWgl9JJK9YKfbVSs8mchQ84=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "b7pk76d08c"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-l8vt5oozv958eMd9TFsPAWgl9JJK9YKfbVSs8mchQ84="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10126"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"l8vt5oozv958eMd9TFsPAWgl9JJK9YKfbVSs8mchQ84=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Cache-Control",
@@ -2818,13 +3986,21 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
+<<<<<<< HEAD
           "Value": "sha256-y72bT5TKmFmfvw3bNEzPRNZa/8595xtseZIcBUV0PdM="
+=======
+          "Value": "sha256-l8vt5oozv958eMd9TFsPAWgl9JJK9YKfbVSs8mchQ84="
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         }
       ]
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.fsbi9cje9m.map",
+<<<<<<< HEAD
       "AssetFile": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+=======
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2845,7 +4021,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 26 Dec 2024 06:11:11 GMT"
+=======
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Cache-Control",
@@ -2869,7 +4049,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+<<<<<<< HEAD
       "AssetFile": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+=======
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2890,7 +4074,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 26 Dec 2024 06:11:11 GMT"
+=======
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Cache-Control",
@@ -2905,6 +4093,7 @@
       ]
     },
     {
+<<<<<<< HEAD
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.min.tmc1g35s3z.css",
       "AssetFile": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "Selectors": [],
@@ -2997,6 +4186,10 @@
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetFile": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+=======
+      "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3005,7 +4198,11 @@
         },
         {
           "Name": "Content-Length",
+<<<<<<< HEAD
           "Value": "12651"
+=======
+          "Value": "12058"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Content-Type",
@@ -3013,11 +4210,19 @@
         },
         {
           "Name": "ETag",
+<<<<<<< HEAD
           "Value": "\"gRKIHVkBgnCPUs/hmZsXynZ9ZJpvsE77idtljDkrWGI=\""
         },
         {
           "Name": "Last-Modified",
           "Value": "Thu, 26 Dec 2024 06:11:11 GMT"
+=======
+          "Value": "\"V8psnHoJS/MPlCXWwc/J3tGtp9c3gGFRmqsIQgpn+Gg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Cache-Control",
@@ -3027,13 +4232,21 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
+<<<<<<< HEAD
           "Value": "sha256-gRKIHVkBgnCPUs/hmZsXynZ9ZJpvsE77idtljDkrWGI="
+=======
+          "Value": "sha256-V8psnHoJS/MPlCXWwc/J3tGtp9c3gGFRmqsIQgpn+Gg="
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         }
       ]
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.ee0r1s7dh0.map",
+<<<<<<< HEAD
       "AssetFile": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+=======
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3054,7 +4267,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 26 Dec 2024 06:11:11 GMT"
+=======
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Cache-Control",
@@ -3078,7 +4295,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+<<<<<<< HEAD
       "AssetFile": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+=======
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3099,7 +4320,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 26 Dec 2024 06:11:11 GMT"
+=======
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Cache-Control",
@@ -3115,7 +4340,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+<<<<<<< HEAD
       "AssetFile": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+=======
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3124,7 +4353,11 @@
         },
         {
           "Name": "Content-Length",
+<<<<<<< HEAD
           "Value": "10203"
+=======
+          "Value": "10198"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Content-Type",
@@ -3132,11 +4365,19 @@
         },
         {
           "Name": "ETag",
+<<<<<<< HEAD
           "Value": "\"UkajePbMzGj8y73Imkd3dWWnLJr0v2CrBCLMrVMleP8=\""
         },
         {
           "Name": "Last-Modified",
           "Value": "Thu, 26 Dec 2024 06:11:11 GMT"
+=======
+          "Value": "\"/8jh8hcEMFKyS6goWqnNu7t3EzZPCGdQZgO6sCkI8tI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Cache-Control",
@@ -3146,13 +4387,21 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
+<<<<<<< HEAD
           "Value": "sha256-UkajePbMzGj8y73Imkd3dWWnLJr0v2CrBCLMrVMleP8="
+=======
+          "Value": "sha256-/8jh8hcEMFKyS6goWqnNu7t3EzZPCGdQZgO6sCkI8tI="
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         }
       ]
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.jd9uben2k1.map",
+<<<<<<< HEAD
       "AssetFile": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+=======
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3173,7 +4422,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 26 Dec 2024 06:11:11 GMT"
+=======
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Cache-Control",
@@ -3197,7 +4450,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+<<<<<<< HEAD
       "AssetFile": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+=======
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3218,7 +4475,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 26 Dec 2024 06:11:11 GMT"
+=======
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Cache-Control",
@@ -3233,8 +4494,13 @@
       ]
     },
     {
+<<<<<<< HEAD
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.q9ht133ko3.css",
       "AssetFile": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+=======
+      "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.dxx9fxp4il.css",
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3243,7 +4509,11 @@
         },
         {
           "Name": "Content-Length",
+<<<<<<< HEAD
           "Value": "10203"
+=======
+          "Value": "10198"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Content-Type",
@@ -3251,11 +4521,19 @@
         },
         {
           "Name": "ETag",
+<<<<<<< HEAD
           "Value": "\"UkajePbMzGj8y73Imkd3dWWnLJr0v2CrBCLMrVMleP8=\""
         },
         {
           "Name": "Last-Modified",
           "Value": "Thu, 26 Dec 2024 06:11:11 GMT"
+=======
+          "Value": "\"/8jh8hcEMFKyS6goWqnNu7t3EzZPCGdQZgO6sCkI8tI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Cache-Control",
@@ -3265,7 +4543,11 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
+<<<<<<< HEAD
           "Value": "q9ht133ko3"
+=======
+          "Value": "dxx9fxp4il"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "label",
@@ -3273,13 +4555,22 @@
         },
         {
           "Name": "integrity",
+<<<<<<< HEAD
           "Value": "sha256-UkajePbMzGj8y73Imkd3dWWnLJr0v2CrBCLMrVMleP8="
+=======
+          "Value": "sha256-/8jh8hcEMFKyS6goWqnNu7t3EzZPCGdQZgO6sCkI8tI="
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         }
       ]
     },
     {
+<<<<<<< HEAD
       "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.rxsg74s51o.css",
       "AssetFile": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+=======
+      "Route": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.rzd6atqjts.css",
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3288,7 +4579,11 @@
         },
         {
           "Name": "Content-Length",
+<<<<<<< HEAD
           "Value": "12651"
+=======
+          "Value": "12058"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Content-Type",
@@ -3296,11 +4591,19 @@
         },
         {
           "Name": "ETag",
+<<<<<<< HEAD
           "Value": "\"gRKIHVkBgnCPUs/hmZsXynZ9ZJpvsE77idtljDkrWGI=\""
         },
         {
           "Name": "Last-Modified",
           "Value": "Thu, 26 Dec 2024 06:11:11 GMT"
+=======
+          "Value": "\"V8psnHoJS/MPlCXWwc/J3tGtp9c3gGFRmqsIQgpn+Gg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Cache-Control",
@@ -3310,7 +4613,11 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
+<<<<<<< HEAD
           "Value": "rxsg74s51o"
+=======
+          "Value": "rzd6atqjts"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "label",
@@ -3318,13 +4625,22 @@
         },
         {
           "Name": "integrity",
+<<<<<<< HEAD
           "Value": "sha256-gRKIHVkBgnCPUs/hmZsXynZ9ZJpvsE77idtljDkrWGI="
+=======
+          "Value": "sha256-V8psnHoJS/MPlCXWwc/J3tGtp9c3gGFRmqsIQgpn+Gg="
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         }
       ]
     },
     {
+<<<<<<< HEAD
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetFile": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+=======
+      "Route": "lib/bootstrap/dist/css/bootstrap-reboot.ub07r2b239.css",
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3333,7 +4649,11 @@
         },
         {
           "Name": "Content-Length",
+<<<<<<< HEAD
           "Value": "113224"
+=======
+          "Value": "12065"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Content-Type",
@@ -3341,11 +4661,64 @@
         },
         {
           "Name": "ETag",
+<<<<<<< HEAD
           "Value": "\"uIzOR4gILoNjCGNryIsWnkEGO3BSwRa/MLjr73tDodE=\""
         },
         {
           "Name": "Last-Modified",
           "Value": "Thu, 26 Dec 2024 06:11:11 GMT"
+=======
+          "Value": "\"lo9YI82OF03vojdu+XOR3+DRrLIpMhpzZNmHbM5CDMA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ub07r2b239"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap-reboot.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lo9YI82OF03vojdu+XOR3+DRrLIpMhpzZNmHbM5CDMA="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "107823"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2BubgNUPlQSF/0wLFcRXQ/Yjzk9vsUbDAeK2QM+h+yo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Cache-Control",
@@ -3355,13 +4728,21 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
+<<<<<<< HEAD
           "Value": "sha256-uIzOR4gILoNjCGNryIsWnkEGO3BSwRa/MLjr73tDodE="
+=======
+          "Value": "sha256-2BubgNUPlQSF/0wLFcRXQ/Yjzk9vsUbDAeK2QM+h+yo="
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         }
       ]
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+<<<<<<< HEAD
       "AssetFile": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+=======
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3382,7 +4763,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 26 Dec 2024 06:11:11 GMT"
+=======
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Cache-Control",
@@ -3398,7 +4783,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.css.r4e9w2rdcm.map",
+<<<<<<< HEAD
       "AssetFile": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+=======
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3419,7 +4808,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 26 Dec 2024 06:11:11 GMT"
+=======
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Cache-Control",
@@ -3442,8 +4835,13 @@
       ]
     },
     {
+<<<<<<< HEAD
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.gye83jo8yx.css",
       "AssetFile": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+=======
+      "Route": "lib/bootstrap/dist/css/bootstrap-utilities.khv3u5hwcm.css",
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3452,7 +4850,11 @@
         },
         {
           "Name": "Content-Length",
+<<<<<<< HEAD
           "Value": "113224"
+=======
+          "Value": "107823"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Content-Type",
@@ -3460,11 +4862,19 @@
         },
         {
           "Name": "ETag",
+<<<<<<< HEAD
           "Value": "\"uIzOR4gILoNjCGNryIsWnkEGO3BSwRa/MLjr73tDodE=\""
         },
         {
           "Name": "Last-Modified",
           "Value": "Thu, 26 Dec 2024 06:11:11 GMT"
+=======
+          "Value": "\"2BubgNUPlQSF/0wLFcRXQ/Yjzk9vsUbDAeK2QM+h+yo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Cache-Control",
@@ -3474,7 +4884,11 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
+<<<<<<< HEAD
           "Value": "gye83jo8yx"
+=======
+          "Value": "khv3u5hwcm"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "label",
@@ -3482,13 +4896,21 @@
         },
         {
           "Name": "integrity",
+<<<<<<< HEAD
           "Value": "sha256-uIzOR4gILoNjCGNryIsWnkEGO3BSwRa/MLjr73tDodE="
+=======
+          "Value": "sha256-2BubgNUPlQSF/0wLFcRXQ/Yjzk9vsUbDAeK2QM+h+yo="
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         }
       ]
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+<<<<<<< HEAD
       "AssetFile": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+=======
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3497,7 +4919,11 @@
         },
         {
           "Name": "Content-Length",
+<<<<<<< HEAD
           "Value": "85357"
+=======
+          "Value": "85352"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Content-Type",
@@ -3505,11 +4931,19 @@
         },
         {
           "Name": "ETag",
+<<<<<<< HEAD
           "Value": "\"ZBXbYF8OZrF1GDOLMLvW/zRPtx1RfeMDYj5D2Wb/9jo=\""
         },
         {
           "Name": "Last-Modified",
           "Value": "Thu, 26 Dec 2024 06:11:11 GMT"
+=======
+          "Value": "\"KyE9xbKO9CuYx0HXpIKgsWIvXkAfITtiQ172j26wmRs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Cache-Control",
@@ -3519,13 +4953,21 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
+<<<<<<< HEAD
           "Value": "sha256-ZBXbYF8OZrF1GDOLMLvW/zRPtx1RfeMDYj5D2Wb/9jo="
+=======
+          "Value": "sha256-KyE9xbKO9CuYx0HXpIKgsWIvXkAfITtiQ172j26wmRs="
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         }
       ]
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.c2oey78nd0.map",
+<<<<<<< HEAD
       "AssetFile": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+=======
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3546,7 +4988,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 26 Dec 2024 06:11:11 GMT"
+=======
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Cache-Control",
@@ -3570,7 +5016,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+<<<<<<< HEAD
       "AssetFile": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+=======
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3591,7 +5041,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 26 Dec 2024 06:11:11 GMT"
+=======
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Cache-Control",
@@ -3606,8 +5060,13 @@
       ]
     },
     {
+<<<<<<< HEAD
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.wl58j5mj3v.css",
       "AssetFile": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+=======
+      "Route": "lib/bootstrap/dist/css/bootstrap-utilities.min.lcd1t2u6c8.css",
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3616,7 +5075,11 @@
         },
         {
           "Name": "Content-Length",
+<<<<<<< HEAD
           "Value": "85357"
+=======
+          "Value": "85352"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Content-Type",
@@ -3624,11 +5087,19 @@
         },
         {
           "Name": "ETag",
+<<<<<<< HEAD
           "Value": "\"ZBXbYF8OZrF1GDOLMLvW/zRPtx1RfeMDYj5D2Wb/9jo=\""
         },
         {
           "Name": "Last-Modified",
           "Value": "Thu, 26 Dec 2024 06:11:11 GMT"
+=======
+          "Value": "\"KyE9xbKO9CuYx0HXpIKgsWIvXkAfITtiQ172j26wmRs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Cache-Control",
@@ -3638,7 +5109,11 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
+<<<<<<< HEAD
           "Value": "wl58j5mj3v"
+=======
+          "Value": "lcd1t2u6c8"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "label",
@@ -3646,13 +5121,21 @@
         },
         {
           "Name": "integrity",
+<<<<<<< HEAD
           "Value": "sha256-ZBXbYF8OZrF1GDOLMLvW/zRPtx1RfeMDYj5D2Wb/9jo="
+=======
+          "Value": "sha256-KyE9xbKO9CuYx0HXpIKgsWIvXkAfITtiQ172j26wmRs="
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         }
       ]
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+<<<<<<< HEAD
       "AssetFile": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+=======
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3661,7 +5144,11 @@
         },
         {
           "Name": "Content-Length",
+<<<<<<< HEAD
           "Value": "113083"
+=======
+          "Value": "107691"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Content-Type",
@@ -3669,11 +5156,19 @@
         },
         {
           "Name": "ETag",
+<<<<<<< HEAD
           "Value": "\"MwFckg8YbY2WrveNQnXkfULkprYhFOq+t1BH92A7GsI=\""
         },
         {
           "Name": "Last-Modified",
           "Value": "Thu, 26 Dec 2024 06:11:11 GMT"
+=======
+          "Value": "\"H6wkBbSwjua2veJoThJo4uy161jp+DOiZTloUlcZ6qQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Cache-Control",
@@ -3683,13 +5178,21 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
+<<<<<<< HEAD
           "Value": "sha256-MwFckg8YbY2WrveNQnXkfULkprYhFOq+t1BH92A7GsI="
+=======
+          "Value": "sha256-H6wkBbSwjua2veJoThJo4uy161jp+DOiZTloUlcZ6qQ="
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         }
       ]
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.j5mq2jizvt.map",
+<<<<<<< HEAD
       "AssetFile": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+=======
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3710,7 +5213,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 26 Dec 2024 06:11:11 GMT"
+=======
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Cache-Control",
@@ -3734,7 +5241,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+<<<<<<< HEAD
       "AssetFile": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+=======
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3755,7 +5266,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 26 Dec 2024 06:11:11 GMT"
+=======
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Cache-Control",
@@ -3770,8 +5285,13 @@
       ]
     },
     {
+<<<<<<< HEAD
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.d4r6k3f320.css",
       "AssetFile": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+=======
+      "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.06098lyss8.css",
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3780,7 +5300,11 @@
         },
         {
           "Name": "Content-Length",
+<<<<<<< HEAD
           "Value": "113083"
+=======
+          "Value": "85281"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Content-Type",
@@ -3788,11 +5312,19 @@
         },
         {
           "Name": "ETag",
+<<<<<<< HEAD
           "Value": "\"MwFckg8YbY2WrveNQnXkfULkprYhFOq+t1BH92A7GsI=\""
         },
         {
           "Name": "Last-Modified",
           "Value": "Thu, 26 Dec 2024 06:11:11 GMT"
+=======
+          "Value": "\"GAUum6FjwQ8HrXGaoFRnHTqQQLpljXGavT7mBX8E9qU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Cache-Control",
@@ -3802,6 +5334,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
+<<<<<<< HEAD
           "Value": "d4r6k3f320"
         },
         {
@@ -3811,12 +5344,27 @@
         {
           "Name": "integrity",
           "Value": "sha256-MwFckg8YbY2WrveNQnXkfULkprYhFOq+t1BH92A7GsI="
+=======
+          "Value": "06098lyss8"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GAUum6FjwQ8HrXGaoFRnHTqQQLpljXGavT7mBX8E9qU="
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         }
       ]
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+<<<<<<< HEAD
       "AssetFile": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+=======
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3825,7 +5373,11 @@
         },
         {
           "Name": "Content-Length",
+<<<<<<< HEAD
           "Value": "85286"
+=======
+          "Value": "85281"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Content-Type",
@@ -3833,11 +5385,19 @@
         },
         {
           "Name": "ETag",
+<<<<<<< HEAD
           "Value": "\"7MYEMUFgHEc1CjrfAK/TlV30POxgoxXk2b+vAs/143U=\""
         },
         {
           "Name": "Last-Modified",
           "Value": "Thu, 26 Dec 2024 06:11:11 GMT"
+=======
+          "Value": "\"GAUum6FjwQ8HrXGaoFRnHTqQQLpljXGavT7mBX8E9qU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Cache-Control",
@@ -3847,13 +5407,21 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
+<<<<<<< HEAD
           "Value": "sha256-7MYEMUFgHEc1CjrfAK/TlV30POxgoxXk2b+vAs/143U="
+=======
+          "Value": "sha256-GAUum6FjwQ8HrXGaoFRnHTqQQLpljXGavT7mBX8E9qU="
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         }
       ]
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+<<<<<<< HEAD
       "AssetFile": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+=======
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3874,7 +5442,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 26 Dec 2024 06:11:11 GMT"
+=======
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Cache-Control",
@@ -3890,7 +5462,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.nvvlpmu67g.map",
+<<<<<<< HEAD
       "AssetFile": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+=======
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3911,7 +5487,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 26 Dec 2024 06:11:11 GMT"
+=======
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Cache-Control",
@@ -3934,8 +5514,13 @@
       ]
     },
     {
+<<<<<<< HEAD
       "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.keugtjm085.css",
       "AssetFile": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+=======
+      "Route": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.tdbxkamptv.css",
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3944,7 +5529,11 @@
         },
         {
           "Name": "Content-Length",
+<<<<<<< HEAD
           "Value": "85286"
+=======
+          "Value": "107691"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Content-Type",
@@ -3952,11 +5541,19 @@
         },
         {
           "Name": "ETag",
+<<<<<<< HEAD
           "Value": "\"7MYEMUFgHEc1CjrfAK/TlV30POxgoxXk2b+vAs/143U=\""
         },
         {
           "Name": "Last-Modified",
           "Value": "Thu, 26 Dec 2024 06:11:11 GMT"
+=======
+          "Value": "\"H6wkBbSwjua2veJoThJo4uy161jp+DOiZTloUlcZ6qQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Cache-Control",
@@ -3966,6 +5563,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
+<<<<<<< HEAD
           "Value": "keugtjm085"
         },
         {
@@ -3975,12 +5573,28 @@
         {
           "Name": "integrity",
           "Value": "sha256-7MYEMUFgHEc1CjrfAK/TlV30POxgoxXk2b+vAs/143U="
+=======
+          "Value": "tdbxkamptv"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-H6wkBbSwjua2veJoThJo4uy161jp+DOiZTloUlcZ6qQ="
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         }
       ]
     },
     {
+<<<<<<< HEAD
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.4094rpi4f9.js",
       "AssetFile": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+=======
+      "Route": "lib/bootstrap/dist/css/bootstrap.css",
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3989,6 +5603,7 @@
         },
         {
           "Name": "Content-Length",
+<<<<<<< HEAD
           "Value": "214133"
         },
         {
@@ -4047,6 +5662,21 @@
         {
           "Name": "Last-Modified",
           "Value": "Thu, 26 Dec 2024 06:11:11 GMT"
+=======
+          "Value": "281046"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GKEF18s44B5e0MolXAkpkqLiEbOVlKf6VyYr/G/E6pw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Cache-Control",
@@ -4056,13 +5686,722 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
+<<<<<<< HEAD
           "Value": "sha256-bNojyBU9M3Cv/K4YqdKkq4xeaAkchkkS7HXP7554z9Y="
+=======
+          "Value": "sha256-GKEF18s44B5e0MolXAkpkqLiEbOVlKf6VyYr/G/E6pw="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.css.map",
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "679755"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KzNVR3p7UZGba94dnCtlc6jXjK5urSPiZ/eNnKTmDkw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KzNVR3p7UZGba94dnCtlc6jXjK5urSPiZ/eNnKTmDkw="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.css.pj5nd1wqec.map",
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "679755"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KzNVR3p7UZGba94dnCtlc6jXjK5urSPiZ/eNnKTmDkw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pj5nd1wqec"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KzNVR3p7UZGba94dnCtlc6jXjK5urSPiZ/eNnKTmDkw="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.min.46ein0sx1k.css",
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "232803"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PI8n5gCcz9cQqQXm3PEtDuPG8qx9oFsFctPg0S5zb8g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "46ein0sx1k"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PI8n5gCcz9cQqQXm3PEtDuPG8qx9oFsFctPg0S5zb8g="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.min.css",
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "232803"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PI8n5gCcz9cQqQXm3PEtDuPG8qx9oFsFctPg0S5zb8g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PI8n5gCcz9cQqQXm3PEtDuPG8qx9oFsFctPg0S5zb8g="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "589892"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8SM4U2NQpCLGTQLW5D/x3qSTwxVq2CP+GXYc3V1WwFs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8SM4U2NQpCLGTQLW5D/x3qSTwxVq2CP+GXYc3V1WwFs="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.min.css.v0zj4ognzu.map",
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "589892"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8SM4U2NQpCLGTQLW5D/x3qSTwxVq2CP+GXYc3V1WwFs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "v0zj4ognzu"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap.min.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8SM4U2NQpCLGTQLW5D/x3qSTwxVq2CP+GXYc3V1WwFs="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.37tfw0ft22.css",
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "280259"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"j5E4XIj1p1kNnDi0x1teX9RXoh1/FNlPvCML9YmRh2Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "37tfw0ft22"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap.rtl.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-j5E4XIj1p1kNnDi0x1teX9RXoh1/FNlPvCML9YmRh2Q="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "280259"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"j5E4XIj1p1kNnDi0x1teX9RXoh1/FNlPvCML9YmRh2Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-j5E4XIj1p1kNnDi0x1teX9RXoh1/FNlPvCML9YmRh2Q="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.hrwsygsryq.map",
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "679615"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3bYWUiiVYMZfv2wq5JnXIsHlQKgSKs/VcRivgjgZ1ho=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hrwsygsryq"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3bYWUiiVYMZfv2wq5JnXIsHlQKgSKs/VcRivgjgZ1ho="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "679615"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3bYWUiiVYMZfv2wq5JnXIsHlQKgSKs/VcRivgjgZ1ho=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3bYWUiiVYMZfv2wq5JnXIsHlQKgSKs/VcRivgjgZ1ho="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "232911"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"h5lE7Nm8SkeIpBHHYxN99spP3VuGFKl5NZgsocil7zk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-h5lE7Nm8SkeIpBHHYxN99spP3VuGFKl5NZgsocil7zk="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.ft3s53vfgj.map",
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "589087"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rTzXlnepcb/vgFAiB+U7ODQAfOlJLfM3gY6IU7eIANk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ft3s53vfgj"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rTzXlnepcb/vgFAiB+U7ODQAfOlJLfM3gY6IU7eIANk="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "589087"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rTzXlnepcb/vgFAiB+U7ODQAfOlJLfM3gY6IU7eIANk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rTzXlnepcb/vgFAiB+U7ODQAfOlJLfM3gY6IU7eIANk="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.rtl.min.pk9g2wxc8p.css",
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "232911"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"h5lE7Nm8SkeIpBHHYxN99spP3VuGFKl5NZgsocil7zk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pk9g2wxc8p"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-h5lE7Nm8SkeIpBHHYxN99spP3VuGFKl5NZgsocil7zk="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap.s35ty4nyc5.css",
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "281046"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GKEF18s44B5e0MolXAkpkqLiEbOVlKf6VyYr/G/E6pw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "s35ty4nyc5"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GKEF18s44B5e0MolXAkpkqLiEbOVlKf6VyYr/G/E6pw="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/js/bootstrap.bundle.6cfz1n2cew.js",
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "207819"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mkoRoV24jV+rCPWcHDR5awPx8VuzzJKN0ibhxZ9/WaM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6cfz1n2cew"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/js/bootstrap.bundle.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-mkoRoV24jV+rCPWcHDR5awPx8VuzzJKN0ibhxZ9/WaM="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "207819"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mkoRoV24jV+rCPWcHDR5awPx8VuzzJKN0ibhxZ9/WaM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mkoRoV24jV+rCPWcHDR5awPx8VuzzJKN0ibhxZ9/WaM="
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         }
       ]
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js.6pdc2jztkx.map",
+<<<<<<< HEAD
       "AssetFile": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+=======
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4083,7 +6422,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 26 Dec 2024 06:11:11 GMT"
+=======
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Cache-Control",
@@ -4107,7 +6450,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+<<<<<<< HEAD
       "AssetFile": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+=======
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4128,7 +6475,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 26 Dec 2024 06:11:11 GMT"
+=======
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Cache-Control",
@@ -4143,8 +6494,13 @@
       ]
     },
     {
+<<<<<<< HEAD
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.hd3gran6i8.js",
       "AssetFile": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+=======
+      "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.493y06b0oq.js",
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4153,7 +6509,11 @@
         },
         {
           "Name": "Content-Length",
+<<<<<<< HEAD
           "Value": "80727"
+=======
+          "Value": "80721"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Content-Type",
@@ -4161,11 +6521,19 @@
         },
         {
           "Name": "ETag",
+<<<<<<< HEAD
           "Value": "\"6zfk2L8R3wCgRbZzpkEi7UYC2bc6fYGIgFfNeqyOWnQ=\""
         },
         {
           "Name": "Last-Modified",
           "Value": "Thu, 26 Dec 2024 06:11:11 GMT"
+=======
+          "Value": "\"CDOy6cOibCWEdsRiZuaHf8dSGGJRYuBGC+mjoJimHGw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Cache-Control",
@@ -4175,7 +6543,11 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
+<<<<<<< HEAD
           "Value": "hd3gran6i8"
+=======
+          "Value": "493y06b0oq"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "label",
@@ -4183,13 +6555,21 @@
         },
         {
           "Name": "integrity",
+<<<<<<< HEAD
           "Value": "sha256-6zfk2L8R3wCgRbZzpkEi7UYC2bc6fYGIgFfNeqyOWnQ="
+=======
+          "Value": "sha256-CDOy6cOibCWEdsRiZuaHf8dSGGJRYuBGC+mjoJimHGw="
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         }
       ]
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+<<<<<<< HEAD
       "AssetFile": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+=======
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4198,7 +6578,11 @@
         },
         {
           "Name": "Content-Length",
+<<<<<<< HEAD
           "Value": "80727"
+=======
+          "Value": "80721"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Content-Type",
@@ -4206,11 +6590,19 @@
         },
         {
           "Name": "ETag",
+<<<<<<< HEAD
           "Value": "\"6zfk2L8R3wCgRbZzpkEi7UYC2bc6fYGIgFfNeqyOWnQ=\""
         },
         {
           "Name": "Last-Modified",
           "Value": "Thu, 26 Dec 2024 06:11:11 GMT"
+=======
+          "Value": "\"CDOy6cOibCWEdsRiZuaHf8dSGGJRYuBGC+mjoJimHGw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Cache-Control",
@@ -4220,13 +6612,21 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
+<<<<<<< HEAD
           "Value": "sha256-6zfk2L8R3wCgRbZzpkEi7UYC2bc6fYGIgFfNeqyOWnQ="
+=======
+          "Value": "sha256-CDOy6cOibCWEdsRiZuaHf8dSGGJRYuBGC+mjoJimHGw="
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         }
       ]
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.iovd86k7lj.map",
+<<<<<<< HEAD
       "AssetFile": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+=======
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4247,7 +6647,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 26 Dec 2024 06:11:11 GMT"
+=======
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Cache-Control",
@@ -4271,7 +6675,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+<<<<<<< HEAD
       "AssetFile": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+=======
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4292,7 +6700,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 26 Dec 2024 06:11:11 GMT"
+=======
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Cache-Control",
@@ -4308,7 +6720,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js",
+<<<<<<< HEAD
       "AssetFile": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+=======
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4317,7 +6733,11 @@
         },
         {
           "Name": "Content-Length",
+<<<<<<< HEAD
           "Value": "140276"
+=======
+          "Value": "135829"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Content-Type",
@@ -4325,11 +6745,19 @@
         },
         {
           "Name": "ETag",
+<<<<<<< HEAD
           "Value": "\"idJzCWndWIhl4ZZvXbuLRTe5wquRfykXbEiDpO7ZsFk=\""
         },
         {
           "Name": "Last-Modified",
           "Value": "Thu, 26 Dec 2024 06:11:11 GMT"
+=======
+          "Value": "\"exiXZNJDwucXfuje3CbXPbuS6+Ery3z9sP+pgmvh8nA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Cache-Control",
@@ -4339,13 +6767,21 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
+<<<<<<< HEAD
           "Value": "sha256-idJzCWndWIhl4ZZvXbuLRTe5wquRfykXbEiDpO7ZsFk="
+=======
+          "Value": "sha256-exiXZNJDwucXfuje3CbXPbuS6+Ery3z9sP+pgmvh8nA="
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         }
       ]
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js.kbrnm935zg.map",
+<<<<<<< HEAD
       "AssetFile": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+=======
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4366,7 +6802,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 26 Dec 2024 06:11:11 GMT"
+=======
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Cache-Control",
@@ -4390,7 +6830,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
+<<<<<<< HEAD
       "AssetFile": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+=======
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4411,7 +6855,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 26 Dec 2024 06:11:11 GMT"
+=======
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Cache-Control",
@@ -4426,8 +6874,13 @@
       ]
     },
     {
+<<<<<<< HEAD
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.ltid2c489k.js",
       "AssetFile": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+=======
+      "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.jj8uyg4cgr.js",
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4436,7 +6889,11 @@
         },
         {
           "Name": "Content-Length",
+<<<<<<< HEAD
           "Value": "140276"
+=======
+          "Value": "73935"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Content-Type",
@@ -4444,11 +6901,19 @@
         },
         {
           "Name": "ETag",
+<<<<<<< HEAD
           "Value": "\"idJzCWndWIhl4ZZvXbuLRTe5wquRfykXbEiDpO7ZsFk=\""
         },
         {
           "Name": "Last-Modified",
           "Value": "Thu, 26 Dec 2024 06:11:11 GMT"
+=======
+          "Value": "\"QZdFT1ZNdly4rmgUBtXmXFS9BU1FTa+sPe6h794sFRQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Cache-Control",
@@ -4458,6 +6923,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
+<<<<<<< HEAD
           "Value": "ltid2c489k"
         },
         {
@@ -4504,6 +6970,9 @@
         {
           "Name": "fingerprint",
           "Value": "8vyfqsqgz1"
+=======
+          "Value": "jj8uyg4cgr"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "label",
@@ -4511,13 +6980,21 @@
         },
         {
           "Name": "integrity",
+<<<<<<< HEAD
           "Value": "sha256-REjSeieVKd00nAKwd6dv7MMhuVKvKctPmLI4iDRs/cc="
+=======
+          "Value": "sha256-QZdFT1ZNdly4rmgUBtXmXFS9BU1FTa+sPe6h794sFRQ="
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         }
       ]
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
+<<<<<<< HEAD
       "AssetFile": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+=======
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4526,7 +7003,11 @@
         },
         {
           "Name": "Content-Length",
+<<<<<<< HEAD
           "Value": "73941"
+=======
+          "Value": "73935"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Content-Type",
@@ -4534,11 +7015,19 @@
         },
         {
           "Name": "ETag",
+<<<<<<< HEAD
           "Value": "\"REjSeieVKd00nAKwd6dv7MMhuVKvKctPmLI4iDRs/cc=\""
         },
         {
           "Name": "Last-Modified",
           "Value": "Thu, 26 Dec 2024 06:11:11 GMT"
+=======
+          "Value": "\"QZdFT1ZNdly4rmgUBtXmXFS9BU1FTa+sPe6h794sFRQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Cache-Control",
@@ -4548,13 +7037,21 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
+<<<<<<< HEAD
           "Value": "sha256-REjSeieVKd00nAKwd6dv7MMhuVKvKctPmLI4iDRs/cc="
+=======
+          "Value": "sha256-QZdFT1ZNdly4rmgUBtXmXFS9BU1FTa+sPe6h794sFRQ="
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         }
       ]
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+<<<<<<< HEAD
       "AssetFile": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+=======
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4575,7 +7072,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 26 Dec 2024 06:11:11 GMT"
+=======
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Cache-Control",
@@ -4591,7 +7092,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.esm.min.js.y7v9cxd14o.map",
+<<<<<<< HEAD
       "AssetFile": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+=======
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4612,7 +7117,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 26 Dec 2024 06:11:11 GMT"
+=======
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Cache-Control",
@@ -4635,8 +7144,13 @@
       ]
     },
     {
+<<<<<<< HEAD
       "Route": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetFile": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+=======
+      "Route": "lib/bootstrap/dist/js/bootstrap.esm.vr1egmr9el.js",
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4645,7 +7159,11 @@
         },
         {
           "Name": "Content-Length",
+<<<<<<< HEAD
           "Value": "149895"
+=======
+          "Value": "135829"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Content-Type",
@@ -4653,11 +7171,64 @@
         },
         {
           "Name": "ETag",
+<<<<<<< HEAD
           "Value": "\"vqK8KwEVuWidx0Ddm5m5LyBriPDPl9TcjrKZQhkFSVA=\""
         },
         {
           "Name": "Last-Modified",
           "Value": "Thu, 26 Dec 2024 06:11:11 GMT"
+=======
+          "Value": "\"exiXZNJDwucXfuje3CbXPbuS6+Ery3z9sP+pgmvh8nA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vr1egmr9el"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/js/bootstrap.esm.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-exiXZNJDwucXfuje3CbXPbuS6+Ery3z9sP+pgmvh8nA="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/js/bootstrap.js",
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "145401"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+UW802wgVfnjaSbdwyHLlU7AVplb0WToOlvN1CnzIac=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Cache-Control",
@@ -4667,13 +7238,21 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
+<<<<<<< HEAD
           "Value": "sha256-vqK8KwEVuWidx0Ddm5m5LyBriPDPl9TcjrKZQhkFSVA="
+=======
+          "Value": "sha256-+UW802wgVfnjaSbdwyHLlU7AVplb0WToOlvN1CnzIac="
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         }
       ]
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js.h1s4sie4z3.map",
+<<<<<<< HEAD
       "AssetFile": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+=======
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4694,7 +7273,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 26 Dec 2024 06:11:11 GMT"
+=======
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Cache-Control",
@@ -4718,7 +7301,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.js.map",
+<<<<<<< HEAD
       "AssetFile": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+=======
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4739,7 +7326,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 26 Dec 2024 06:11:11 GMT"
+=======
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Cache-Control",
@@ -4754,8 +7345,13 @@
       ]
     },
     {
+<<<<<<< HEAD
       "Route": "lib/bootstrap/dist/js/bootstrap.min.4d85u1mtcx.js",
       "AssetFile": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+=======
+      "Route": "lib/bootstrap/dist/js/bootstrap.min.63fj8s7r0e.js",
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4764,7 +7360,11 @@
         },
         {
           "Name": "Content-Length",
+<<<<<<< HEAD
           "Value": "60641"
+=======
+          "Value": "60635"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Content-Type",
@@ -4772,11 +7372,19 @@
         },
         {
           "Name": "ETag",
+<<<<<<< HEAD
           "Value": "\"aCTIqw9op0XQGYnNe1649V7fnihACD48OP3M8BP2xVM=\""
         },
         {
           "Name": "Last-Modified",
           "Value": "Thu, 26 Dec 2024 06:11:11 GMT"
+=======
+          "Value": "\"3gQJhtmj7YnV1fmtbVcnAV6eI4ws0Tr48bVZCThtCGQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Cache-Control",
@@ -4786,7 +7394,11 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
+<<<<<<< HEAD
           "Value": "4d85u1mtcx"
+=======
+          "Value": "63fj8s7r0e"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "label",
@@ -4794,13 +7406,21 @@
         },
         {
           "Name": "integrity",
+<<<<<<< HEAD
           "Value": "sha256-aCTIqw9op0XQGYnNe1649V7fnihACD48OP3M8BP2xVM="
+=======
+          "Value": "sha256-3gQJhtmj7YnV1fmtbVcnAV6eI4ws0Tr48bVZCThtCGQ="
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         }
       ]
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js",
+<<<<<<< HEAD
       "AssetFile": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+=======
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4809,7 +7429,11 @@
         },
         {
           "Name": "Content-Length",
+<<<<<<< HEAD
           "Value": "60641"
+=======
+          "Value": "60635"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Content-Type",
@@ -4817,11 +7441,19 @@
         },
         {
           "Name": "ETag",
+<<<<<<< HEAD
           "Value": "\"aCTIqw9op0XQGYnNe1649V7fnihACD48OP3M8BP2xVM=\""
         },
         {
           "Name": "Last-Modified",
           "Value": "Thu, 26 Dec 2024 06:11:11 GMT"
+=======
+          "Value": "\"3gQJhtmj7YnV1fmtbVcnAV6eI4ws0Tr48bVZCThtCGQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Cache-Control",
@@ -4831,13 +7463,21 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
+<<<<<<< HEAD
           "Value": "sha256-aCTIqw9op0XQGYnNe1649V7fnihACD48OP3M8BP2xVM="
+=======
+          "Value": "sha256-3gQJhtmj7YnV1fmtbVcnAV6eI4ws0Tr48bVZCThtCGQ="
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         }
       ]
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js.0j3bgjxly4.map",
+<<<<<<< HEAD
       "AssetFile": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+=======
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4858,7 +7498,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 26 Dec 2024 06:11:11 GMT"
+=======
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Cache-Control",
@@ -4882,7 +7526,11 @@
     },
     {
       "Route": "lib/bootstrap/dist/js/bootstrap.min.js.map",
+<<<<<<< HEAD
       "AssetFile": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+=======
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4903,7 +7551,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Thu, 26 Dec 2024 06:11:11 GMT"
+=======
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Cache-Control",
@@ -4918,8 +7570,13 @@
       ]
     },
     {
+<<<<<<< HEAD
       "Route": "lib/bootstrap/dist/js/bootstrap.u9q1upor1n.js",
       "AssetFile": "E:\\workspace\\public-projects\\demo-wise\\demo-wise\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+=======
+      "Route": "lib/bootstrap/dist/js/bootstrap.notf2xhcfb.js",
+      "AssetFile": "/Users/timmy/workspace/public-projects/demo-wise/demo-wise/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4928,7 +7585,11 @@
         },
         {
           "Name": "Content-Length",
+<<<<<<< HEAD
           "Value": "149895"
+=======
+          "Value": "145401"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Content-Type",
@@ -4936,11 +7597,19 @@
         },
         {
           "Name": "ETag",
+<<<<<<< HEAD
           "Value": "\"vqK8KwEVuWidx0Ddm5m5LyBriPDPl9TcjrKZQhkFSVA=\""
         },
         {
           "Name": "Last-Modified",
           "Value": "Thu, 26 Dec 2024 06:11:11 GMT"
+=======
+          "Value": "\"+UW802wgVfnjaSbdwyHLlU7AVplb0WToOlvN1CnzIac=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 19:35:23 GMT"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "Cache-Control",
@@ -4950,7 +7619,11 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
+<<<<<<< HEAD
           "Value": "u9q1upor1n"
+=======
+          "Value": "notf2xhcfb"
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         },
         {
           "Name": "label",
@@ -4958,7 +7631,11 @@
         },
         {
           "Name": "integrity",
+<<<<<<< HEAD
           "Value": "sha256-vqK8KwEVuWidx0Ddm5m5LyBriPDPl9TcjrKZQhkFSVA="
+=======
+          "Value": "sha256-+UW802wgVfnjaSbdwyHLlU7AVplb0WToOlvN1CnzIac="
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
         }
       ]
     }

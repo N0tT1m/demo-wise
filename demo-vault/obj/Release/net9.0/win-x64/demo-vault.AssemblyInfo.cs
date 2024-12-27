@@ -13,7 +13,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("demo-vault")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b758c2ef4a90fcb71ff050f506d1b1847894a3f9")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+>>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
 [assembly: System.Reflection.AssemblyProductAttribute("demo-vault")]
 [assembly: System.Reflection.AssemblyTitleAttribute("demo-vault")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
