@@ -1,7 +1,0 @@
-﻿<Project>
-<<<<<<< HEAD
-  <Import Project="..\buildMultiTargeting\demo-wise.props" />
-=======
-  <Import Project="../buildMultiTargeting/demo-wise.props" />
->>>>>>> 54078d351b5ab5dc06ddcc0e4c2c953fec39fc41
-</Project>

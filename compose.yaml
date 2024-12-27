@@ -10,3 +10,9 @@
     build:
       context: .
       dockerfile: demo-wise/Dockerfile
+
+  demo-wise-1:
+    image: demo-wise-1
+    build:
+      context: .
+      dockerfile: demo-wise/Dockerfile
