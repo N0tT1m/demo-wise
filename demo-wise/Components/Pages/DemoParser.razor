@@ -1,188 +1,41 @@
 @page "/demo-parser"
-@using System.IO
+@rendermode InteractiveServer
 @using Microsoft.AspNetCore.Components.Forms
-
-<PageTitle>Demo Parser</PageTitle>
-
-<div class="container">
-    <h1 class="mb-4">CS2 Demo Parser</h1>
-
-    <div class="card">
-        <div class="card-body">
-            <EditForm Model="@fileModel" OnValidSubmit="@HandleValidSubmit">
-                <div class="mb-3">
-                    <InputFile class="form-control" OnChange="@LoadFiles" accept=".dem" />
-                    @if (fileModel.File != null)
-                    {
-                        <div class="mt-2">Selected: @fileModel.File.Name</div>
-                    }
-                </div>
-
-                @if (fileModel.File != null)
-                {
-                    <div class="alert alert-info">
-                        <strong>Selected file:</strong> @fileModel.File.Name
-                        <br />
-                        <strong>Size:</strong> @(fileModel.File.Size / 1024.0 / 1024.0) MB
-                    </div>
-                }
-
-                <button type="submit" class="btn btn-primary" disabled="@(!fileModel.HasFile)">
-                    @if (isProcessing)
-                    {
-                        <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
-                        <span class="ms-1">Processing...</span>
-                    }
-                    else
-                    {
-                        <span>Process Demo</span>
-                    }
-                </button>
-            </EditForm>
-
-            @if (!string.IsNullOrEmpty(statusMessage))
-            {
-                <div class="@statusClass mt-3" role="alert">
-                    @statusMessage
-                </div>
-            }
-
-            @if (isProcessing)
-            {
-                <div class="progress mt-3">
-                    <div class="progress-bar progress-bar-striped progress-bar-animated" 
-                         role="progressbar" 
-                         style="width: @(processingProgress)%">
-                        @processingProgress%
-                    </div>
-                </div>
-            }
-        </div>
-    </div>
-</div>
-
+@inject IWebHostEnvironment env
+<h3>File Upload</h3>
+<InputFile OnChange="HandleFileSelected" multiple />
+<button @onclick="ListUploadedFiles">List Uploaded Files</button>
+<ul>
+    @foreach (var file in uploadedFiles)
+    {
+        <li>@file</li>
+    }
+</ul>
 @code {
-    private FileModel fileModel = new();
-    private bool isProcessing;
-    private string? statusMessage;
-    private string statusClass = "alert alert-info";
-    private int processingProgress;
-    private const long MaxFileSize = 1024L * 1024L * 200L; // 200MB
-
-    public class FileModel
+    private List<string> uploadedFiles = new();
+    private async Task HandleFileSelected(InputFileChangeEventArgs e)
     {
-        private IBrowserFile? _file;
-        
-        public IBrowserFile? File
+        foreach (var file in e.GetMultipleFiles())
         {
-            get => _file;
-            set
+            var filePath = Path.Combine(env.WebRootPath, "Upload", file.Name);
+            using (var stream = new FileStream(filePath, FileMode.Create))
             {
-                _file = value;
-                Console.WriteLine($"File set: {_file?.Name ?? "null"}"); // Debug log
+                await file.OpenReadStream().CopyToAsync(stream);
             }
-        }
-        
-        public bool HasFile => File != null;
-    }
-
-    private void LoadFiles(InputFileChangeEventArgs e)
-    {
-        try
-        {
-            // Reset status
-            statusMessage = null;
-            processingProgress = 0;
-
-            // Check if we have any files
-            if (e.FileCount > 0)
-            {
-                var file = e.File;
-                Console.WriteLine($"File received: {file.Name}"); // Debug log
-
-                if (file.Size > MaxFileSize)
-                {
-                    statusMessage = $"File size ({file.Size / 1024.0 / 1024.0:F2} MB) exceeds maximum allowed size (200 MB)";
-                    statusClass = "alert alert-danger";
-                    return;
-                }
-
-                // Set the file immediately
-                fileModel = new FileModel { File = file };
-                StateHasChanged();
-
-                statusMessage = "File loaded successfully. Click 'Process Demo' to continue.";
-                statusClass = "alert alert-success";
-            }
-            else
-            {
-                statusMessage = "No file was selected";
-                statusClass = "alert alert-warning";
-            }
-        }
-        catch (Exception ex)
-        {
-            Console.WriteLine($"Error in LoadFiles: {ex}"); // Debug log
-            statusMessage = $"Error loading file: {ex.Message}";
-            statusClass = "alert alert-danger";
-        }
-        finally
-        {
-            StateHasChanged();
+            uploadedFiles.Add(file.Name);
         }
     }
-
-    private async Task HandleValidSubmit()
+    private void ListUploadedFiles()
     {
-        if (!fileModel.HasFile)
+        var uploadPath = Path.Combine(env.WebRootPath, "Upload");
+        if (Directory.Exists(uploadPath))
         {
-            statusMessage = "Please select a file first";
-            statusClass = "alert alert-warning";
-            return;
-        }
-
-        try
-        {
-            isProcessing = true;
-            processingProgress = 0;
-            statusMessage = "Processing demo file...";
-            statusClass = "alert alert-info";
-
-            // Read the file
-            using var stream = fileModel.File.OpenReadStream(MaxFileSize);
-            using var memoryStream = new MemoryStream();
-
-            // Copy the file with progress updates
-            var buffer = new byte[4096];
-            long totalBytesRead = 0;
-            int bytesRead;
-
-            while ((bytesRead = await stream.ReadAsync(buffer)) > 0)
+            var files = Directory.GetFiles(uploadPath);
+            uploadedFiles = files.Select(file => Path.GetFileName(file)).ToList();
+            foreach (var file in uploadedFiles)
             {
-                await memoryStream.WriteAsync(buffer.AsMemory(0, bytesRead));
-                totalBytesRead += bytesRead;
-                processingProgress = (int)((double)totalBytesRead / fileModel.File.Size * 100);
-                StateHasChanged();
+                Console.WriteLine(file);
             }
-
-            // Get the complete file data
-            var fileData = memoryStream.ToArray();
-
-            // TODO: Add your demo parsing logic here
-            await Task.Delay(1000); // Simulate processing time
-
-            statusMessage = "Demo processed successfully!";
-            statusClass = "alert alert-success";
-        }
-        catch (Exception ex)
-        {
-            statusMessage = $"Error processing demo: {ex.Message}";
-            statusClass = "alert alert-danger";
-        }
-        finally
-        {
-            isProcessing = false;
-            processingProgress = 0;
         }
     }
 }
