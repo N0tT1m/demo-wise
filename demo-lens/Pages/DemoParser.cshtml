@@ -1,0 +1,56 @@
+﻿@page
+@model DemoParserModel
+@inject Microsoft.AspNetCore.Antiforgery.IAntiforgery Xsrf
+@{
+    ViewData["Title"] = "CS2 Demo Parser";
+    var token = Xsrf.GetAndStoreTokens(HttpContext).RequestToken;
+}
+<div class="container">
+    <h1>CS2 Demo Parser</h1>
+    <div class="card">
+        <div class="card-body">
+            <form method="post" enctype="multipart/form-data">
+                <input type="hidden" name="__RequestVerificationToken" value="@token" />
+                <div class="mb-3">
+                    <label for="demoFile" class="form-label">Select Demo File (.dem)</label>
+                    <input type="file" class="form-control" id="demoFile" name="demoFile" accept=".dem" />
+                </div>
+                <button type="submit" class="btn btn-primary">Upload</button>
+            </form>
+            <div id="result" class="mt-3"></div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        $(document).ready(function() {
+            $('form').on('submit', function(e) {
+                e.preventDefault();
+
+                var formData = new FormData(this);
+
+                $.ajax({
+                    url: '?handler=Upload',
+                    type: 'POST',
+                    data: formData,
+                    processData: false,
+                    contentType: false,
+                    success: function(result) {
+                        $('#result').html(`
+                            <div class="alert alert-success">
+                                File "${result.fileName}" uploaded successfully
+                            </div>`);
+                    },
+                    error: function(xhr, status, error) {
+                        console.error('Upload error:', xhr.responseText);
+                        $('#result').html(`
+                            <div class="alert alert-danger">
+                                Upload failed: ${xhr.status} - ${xhr.responseText || error}
+                            </div>`);
+                    }
+                });
+            });
+        });
+    </script>
+}

@@ -16,3 +16,15 @@
     build:
       context: .
       dockerfile: demo-wise/Dockerfile
+
+  webapplication1:
+    image: webapplication1
+    build:
+      context: .
+      dockerfile: WebApplication1/Dockerfile
+
+  demo-lens:
+    image: demo-lens
+    build:
+      context: .
+      dockerfile: demo-lens/Dockerfile

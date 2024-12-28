@@ -1,0 +1,11 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "demo-lens\\demo-lens\\demo-lens.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
