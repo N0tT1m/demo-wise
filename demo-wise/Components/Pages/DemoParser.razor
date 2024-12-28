@@ -1,41 +1,79 @@
 @page "/demo-parser"
-@rendermode InteractiveServer
-@using Microsoft.AspNetCore.Components.Forms
-@inject IWebHostEnvironment env
-<h3>File Upload</h3>
-<InputFile OnChange="HandleFileSelected" multiple />
-<button @onclick="ListUploadedFiles">List Uploaded Files</button>
-<ul>
-    @foreach (var file in uploadedFiles)
-    {
-        <li>@file</li>
-    }
-</ul>
+@using System.Net.Http.Headers
+@using System.Text.Json
+@inject IHttpClientFactory ClientFactory
+@inject ILogger<DemoParser> Logger
+@using System.IO
+
+@inject IJSRuntime JSRuntime
+
+@if (AllowMulitple)
+{
+    <input id="Xinputfile00" type="file" accept="@Filter" @onchange="UploadFile" multiple hidden />
+}
+else
+{
+    <input id="Xinputfile00" type="file" accept="@Filter" @onchange="UploadFile" hidden />
+}
+<button class="btn btn-default" @onclick="ClickUpload">@Title</button>
+
+
+
 @code {
-    private List<string> uploadedFiles = new();
-    private async Task HandleFileSelected(InputFileChangeEventArgs e)
+
+    [Parameter] public FileData[] Files { get; set; }
+
+    [Parameter] public string Filter { get; set; }
+
+    [Parameter] public string Title { get; set; }
+
+    [Parameter] public bool AllowMulitple { get; set; }
+
+    [Parameter] public Action Uploaded { get; set; }
+
+    async Task UploadFile()
     {
-        foreach (var file in e.GetMultipleFiles())
+        string[] result = await JSRuntime.InvokeAsync<string[]>("blazorExtensions.GetFileData", "Xinputfile00");
+        List<FileData> results = new List<FileData>();
+        foreach (string file in result)
         {
-            var filePath = Path.Combine(env.WebRootPath, "Upload", file.Name);
-            using (var stream = new FileStream(filePath, FileMode.Create))
-            {
-                await file.OpenReadStream().CopyToAsync(stream);
-            }
-            uploadedFiles.Add(file.Name);
+            results.Add(new FileData(file));
+        }
+
+        this.Files = results.ToArray();
+        if (Uploaded != null)
+        {
+            Uploaded();
         }
     }
-    private void ListUploadedFiles()
+
+    async Task ClickUpload()
     {
-        var uploadPath = Path.Combine(env.WebRootPath, "Upload");
-        if (Directory.Exists(uploadPath))
-        {
-            var files = Directory.GetFiles(uploadPath);
-            uploadedFiles = files.Select(file => Path.GetFileName(file)).ToList();
-            foreach (var file in uploadedFiles)
-            {
-                Console.WriteLine(file);
-            }
-        }
+        await JSRuntime.InvokeVoidAsync("blazorExtensions.InvokeClick", "Xinputfile00");
     }
+
+    public class FileData
+    {
+        public string Base64 { get; set; }
+        public string MIMEType { get; set; }
+
+        public byte[] Bytes
+        {
+            get { return Convert.FromBase64String(this.Base64); }
+        }
+
+        public FileData(string data)
+        {
+            if (string.IsNullOrWhiteSpace(data) || !data.Contains(","))
+            {
+                return;
+            }
+
+            string[] alldata = data.Split(',');
+            this.MIMEType = alldata[0].Remove(0, 5).Replace(";base64", "");
+            this.Base64 = alldata[1];
+        }
+
+    }
+
 }
