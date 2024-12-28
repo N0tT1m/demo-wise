@@ -9436,34 +9436,27 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Nathan\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "/Users/timmy/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\workspace\\public-projects\\demo-wise\\demo-vault\\demo-vault.csproj",
+      "projectUniqueName": "/Users/timmy/workspace/public-projects/demo-wise/demo-vault/demo-vault.csproj",
       "projectName": "demo-vault",
-      "projectPath": "E:\\workspace\\public-projects\\demo-wise\\demo-vault\\demo-vault.csproj",
-      "packagesPath": "C:\\Users\\Nathan\\.nuget\\packages\\",
-      "outputPath": "E:\\workspace\\public-projects\\demo-wise\\demo-vault\\obj\\",
+      "projectPath": "/Users/timmy/workspace/public-projects/demo-wise/demo-vault/demo-vault.csproj",
+      "packagesPath": "/Users/timmy/.nuget/packages/",
+      "outputPath": "/Users/timmy/workspace/public-projects/demo-wise/demo-vault/obj/",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "UsingMicrosoftNETSdk": false,
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Nathan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/timmy/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0",
         "net9.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -9540,7 +9533,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
       },
       "net9.0": {
         "targetAlias": "net9.0",
@@ -9594,7 +9587,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
