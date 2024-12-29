@@ -1,2 +1,3 @@
 E:\workspace\public-projects\demo-wise\demo-vault\bin\Release\net9.0\win-x64\publish\demo-vault.pdb
+E:\workspace\public-projects\demo-wise\demo-vault\bin\Release\net9.0\win-x64\publish\Microsoft.Data.SqlClient.SNI.dll
 E:\workspace\public-projects\demo-wise\demo-vault\bin\Release\net9.0\win-x64\publish\demo-vault.exe

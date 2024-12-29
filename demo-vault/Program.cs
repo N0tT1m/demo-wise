@@ -379,7 +379,7 @@ internal class Program
 
         Console.WriteLine($"Normalized round numbers: {string.Join(", ", sequentialMapping.Values.OrderBy(x => x))}");
     }
-    
+
     public static async Task Main(string[] args)
     {
         if (args.Length < 2)
@@ -402,11 +402,15 @@ internal class Program
         if (currentMap.HasLowerLevel)
         {
             Console.WriteLine($"Map has lower level. Split at Z: {currentMap.LowerAltitudeMax}");
-            Console.WriteLine($"Upper level Z range: {currentMap.DefaultAltitudeMin} to {currentMap.DefaultAltitudeMax}");
+            Console.WriteLine(
+                $"Upper level Z range: {currentMap.DefaultAltitudeMin} to {currentMap.DefaultAltitudeMax}");
             Console.WriteLine($"Lower level Z range: {currentMap.LowerAltitudeMin} to {currentMap.LowerAltitudeMax}");
         }
 
         var demoName = Path.GetFileName(demoPath);
+
+        var demo = new CsDemoParser();
+        var cts = new CancellationTokenSource();
 
         // Initialize demo info early
         currentDemoInfo = new DemoInfo
@@ -419,10 +423,7 @@ internal class Program
             MapName = mapName,
             RecordedAt = File.GetLastWriteTime(demoPath)
         };
-        
-        var demo = new CsDemoParser();
-        var cts = new CancellationTokenSource();
-        
+
         // Update the event handler with corrected round numbering
         demo.Source1GameEvents.RoundStart += e =>
         {
@@ -464,28 +465,28 @@ internal class Program
             grenadePositions["Smoke"].Add((e.X, e.Y, e.Z, e.Player?.PlayerName ?? "Unknown", demoPath));
             // Console.WriteLine($"{e.Player?.PlayerName} [Smoke] - [{e.X} {e.Y} {e.Z}]; Level: {(e.Z <= currentMap.LowerAltitudeMax ? "Lower" : "Upper")}");
         };
-        
+
         demo.Source1GameEvents.InfernoStartburn += e =>
         {
             // if (e.Player?.PlayerName != "--uncle-") return;
             grenadePositions["Molotov"].Add((e.X, e.Y, e.Z, "Not Available", demoPath));
             // Console.WriteLine($"[Molotov] - [{e.X} {e.Y} {e.Z}] Level: {(e.Z <= currentMap.LowerAltitudeMax ? "Lower" : "Upper")}");
         };
-        
+
         demo.Source1GameEvents.HegrenadeDetonate += e =>
         {
             // if (e.Player?.PlayerName != "--uncle-") return;
             grenadePositions["HE"].Add((e.X, e.Y, e.Z, e.Player?.PlayerName ?? "Unknown", demoPath));
             // Console.WriteLine($"{e.Player?.PlayerName} [HE] - [{e.X} {e.Y} {e.Z}] Level: {(e.Z <= currentMap.LowerAltitudeMax ? "Lower" : "Upper")}");
         };
-        
+
         demo.Source1GameEvents.FlashbangDetonate += e =>
         {
             // if (e.Player?.PlayerName != "--uncle-") return;
             grenadePositions["Flashbang"].Add((e.X, e.Y, e.Z, e.Player?.PlayerName ?? "Unknown", demoPath));
             // Console.WriteLine($"{e.Player?.PlayerName} [Flashbang] - [{e.X} {e.Y} {e.Z}] Level: {(e.Z <= currentMap.LowerAltitudeMax ? "Lower" : "Upper")}");
         };
-        
+
         // Update death event handler
         demo.Source1GameEvents.PlayerDeath += e =>
         {
@@ -504,7 +505,7 @@ internal class Program
             };
 
             deathEvents.Add(deathEvent);
-    
+
             // AnsiConsole.Markup($"[{deathEvent.AttackerTeam}]{deathEvent.AttackerName}[/]");
             // AnsiConsole.Markup(" <");
             // AnsiConsole.Markup(deathEvent.Weapon);
@@ -513,7 +514,7 @@ internal class Program
             // AnsiConsole.Markup("> ");
             // AnsiConsole.MarkupLine($"[{deathEvent.VictimTeam}]{deathEvent.VictimName}[/]");
         };
-        
+
         demo.Source1GameEvents.RoundFreezeEnd += e =>
         {
             Console.WriteLine("\n  > Round freeze end");
@@ -522,6 +523,7 @@ internal class Program
                 var record = roundTicks[currentRoundNumber];
                 record.FreezeEndTick = (int)demo.CurrentGameTick.Value;
             }
+
             DumpGrenadeInventory();
         };
 
@@ -534,7 +536,7 @@ internal class Program
                 var record = roundTicks[currentRoundNumber];
                 record.EndTick = (int)demo.CurrentGameTick.Value;
             }
-    
+
             // Make sure we capture stats at round end
             CapturePlayerStats(demo, currentRoundNumber, demoPath);
             DumpGrenadeInventory();
@@ -581,23 +583,25 @@ internal class Program
             }
         };
 
-        demo.EntityEvents.CCSPlayerPawn.AddCollectionChangeCallback(pawn => pawn.Grenades, (pawn, oldGrenades, newGrenades) =>
-        {
-            Console.Write($"  [Tick {demo.CurrentGameTick.Value}] ");
-            MarkupPlayerName(pawn.Controller);
-            var playerName = pawn.Controller?.PlayerName ?? "Unknown";
-            
-            // Store the grenade changes
-            grenadeEvents.Add((
-                currentRoundNumber,
-                demo.CurrentGameTick.Value,
-                playerName,
-                "InventoryChange",
-                string.Join(", ", newGrenades.Select(x => x.ServerClass.Name))
-            ));
-            
-            AnsiConsole.MarkupLine($" grenades changed [grey]{string.Join(", ", oldGrenades.Select(x => x.ServerClass.Name))}[/] => [bold]{string.Join(", ", newGrenades.Select(x => x.ServerClass.Name))}[/]");
-        });
+        demo.EntityEvents.CCSPlayerPawn.AddCollectionChangeCallback(pawn => pawn.Grenades,
+            (pawn, oldGrenades, newGrenades) =>
+            {
+                Console.Write($"  [Tick {demo.CurrentGameTick.Value}] ");
+                MarkupPlayerName(pawn.Controller);
+                var playerName = pawn.Controller?.PlayerName ?? "Unknown";
+
+                // Store the grenade changes
+                grenadeEvents.Add((
+                    currentRoundNumber,
+                    demo.CurrentGameTick.Value,
+                    playerName,
+                    "InventoryChange",
+                    string.Join(", ", newGrenades.Select(x => x.ServerClass.Name))
+                ));
+
+                AnsiConsole.MarkupLine(
+                    $" grenades changed [grey]{string.Join(", ", oldGrenades.Select(x => x.ServerClass.Name))}[/] => [bold]{string.Join(", ", newGrenades.Select(x => x.ServerClass.Name))}[/]");
+            });
 
         // Update grenade event handler - consider only storing events during actual gameplay rounds
         demo.Source1GameEvents.WeaponFire += e =>
@@ -629,8 +633,8 @@ internal class Program
             foreach (var player in demo.Players)
             {
                 var inventory = new List<(string GrenadeType, int Count)>();
-        
-                if (player.PlayerPawn is not {} pawn)
+
+                if (player.PlayerPawn is not { } pawn)
                 {
                     if (player.PlayerName == "SourceTV") continue;
                     inventory.Add(("NO_PAWN", 0));
@@ -668,109 +672,159 @@ internal class Program
 
         var reader = DemoFileReader.Create(demo, File.OpenRead(demoPath));
         await reader.ReadAllAsync();
-        
+
         // Write all stats to database
         Console.WriteLine("\nWriting data to database...");
         await WriteAllStatsToDatabase(
-            grenadePositions,    // Dictionary of grenade positions by type
-            grenadeEvents,       // List of grenade events during the game
-            grenadeInventory,    // List of inventory snapshots
-            roundTicks,          // Dictionary of round information
-            deathEvents,         // List of death events
-            playerRoundStats     // List of player statistics
+            grenadePositions, // Dictionary of grenade positions by type
+            grenadeEvents, // List of grenade events during the game
+            grenadeInventory, // List of inventory snapshots
+            roundTicks, // Dictionary of round information
+            deathEvents, // List of death events
+            playerRoundStats // List of player statistics
         );
         Console.WriteLine("Database write completed successfully.");
-    
+
         // Continue with existing Excel and image generation if needed
         WriteToCsv(grenadePositions["Flashbang"], "Flashbang.csv", "Flashbang", demo);
         WriteToCsv(grenadePositions["Smoke"], "Smoke.csv", "Smoke", demo);
         WriteToCsv(grenadePositions["HE"], "HE.csv", "HE", demo);
 
-        string outputPath = $"{currentMap.Name}.png";
-        string mapImagePath = $"de_{currentMap.Name}.png";
-
-        PlotGrenades(outputPath, mapImagePath);
+        // Update the relevant part in the Main method where PlotGrenades is called
+        string outputFileName = $"{currentMap.Name}.png";
+        // Update the relevant part in the Main method where PlotGrenades is called
+        string mapImagePath = $"maps/de_{currentMap.Name}.png";
+        PlotGrenades(demoPath, mapImagePath); // Pass the demo path instead of constructing a filename
 
         if (currentMap.HasLowerLevel)
         {
-            outputPath = $"{currentMap.Name}_lower.png";
-            mapImagePath = $"de_{currentMap.Name}_lower.png";
-            PlotGrenades(outputPath, mapImagePath, true);
+            string lowerMapImagePath = $"maps/de_{currentMap.Name}_lower.png";
+            PlotGrenades(demoPath, lowerMapImagePath, true);
         }
-
-        Console.WriteLine($"\nFinished! Check {outputPath} for the plotted grenades.");
     }
 
-    private static void PlotGrenades(string outputPath, string mapImagePath, bool lowerLevel = false)
+    // Helper method to generate a unique filename
+    private static string GetUniqueFileName(string basePath, string fileName)
+    {
+        // Get the file name without extension and the extension
+        string nameWithoutExtension = Path.GetFileNameWithoutExtension(fileName);
+        string extension = Path.GetExtension(fileName);
+        string fullPath = Path.Combine(basePath, fileName);
+        
+        // If the file doesn't exist, return the original name
+        if (!File.Exists(fullPath))
+            return fileName;
+        
+        // If it exists, try adding numbers until we find a unique name
+        int counter = 1;
+        string newFileName;
+        do
+        {
+            newFileName = $"{nameWithoutExtension}({counter}){extension}";
+            fullPath = Path.Combine(basePath, newFileName);
+            counter++;
+        } while (File.Exists(fullPath));
+        
+        return newFileName;
+    }
+
+    // Helper method to ensure directory exists
+    private static void EnsureDirectoryExists(string path)
+    {
+        string directoryPath = Path.GetDirectoryName(path);
+        if (!string.IsNullOrEmpty(directoryPath) && !Directory.Exists(directoryPath))
+        {
+            Directory.CreateDirectory(directoryPath);
+        }
+    }
+
+    private static void PlotGrenades(string demoPath, string mapImagePath, bool lowerLevel = false)
     {
         try
         {
-                Console.WriteLine($"\nProcessing {(lowerLevel ? "lower" : "upper")} level image...");
-                
-                using var baseImage = new Bitmap(mapImagePath);
-                using var bitmap = new Bitmap(baseImage.Width, baseImage.Height, PixelFormat.Format32bppArgb);
-                using var graphics = Graphics.FromImage(bitmap);
+            Console.WriteLine($"\nProcessing {(lowerLevel ? "lower" : "upper")} level image...");
 
-                int grenadeCount = 0;
-                
-                // Draw the background image
-                graphics.DrawImage(baseImage, 0, 0, baseImage.Width, baseImage.Height);
+            // Get the base name from the demo file
+            string baseName = GetBaseNameFromDemo(demoPath);
+            
+            // Construct the output filename, adding _lower suffix if needed
+            string outputFileName = lowerLevel ? $"{baseName}_lower.png" : $"{baseName}.png";
 
-                var colors = new Dictionary<string, Color>
+            // Construct the full paths
+            string wwwrootPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot");
+            string mapsOutputPath = Path.Combine(wwwrootPath, "maps");
+            
+            // Ensure the maps directory exists
+            EnsureDirectoryExists(mapsOutputPath);
+            
+            string fullOutputPath = Path.Combine(mapsOutputPath, outputFileName);
+            
+            // Use the map image path relative to the wwwroot directory
+            string fullMapImagePath = Path.Combine(wwwrootPath, mapImagePath);
+
+            using var baseImage = new Bitmap(fullMapImagePath);
+            using var bitmap = new Bitmap(baseImage.Width, baseImage.Height, PixelFormat.Format32bppArgb);
+
+            Console.WriteLine("Working!");
+            
+            using var graphics = Graphics.FromImage(bitmap);
+
+            Console.WriteLine("Drawing grenades...");
+            
+            int grenadeCount = 0;
+            
+            // Draw the background image
+            graphics.DrawImage(baseImage, 0, 0, baseImage.Width, baseImage.Height);
+
+            var colors = new Dictionary<string, Color>
+            {
+                { "Smoke", Color.FromArgb(180, Color.Blue) },
+                { "Molotov", Color.FromArgb(180, Color.Red) },
+                { "HE", Color.FromArgb(180, Color.Green) },
+                { "Flashbang", Color.FromArgb(180, Color.Yellow) }
+            };
+
+            foreach (var (grenadeType, positions) in grenadePositions)
+            {
+                using var brush = new SolidBrush(colors[grenadeType]);
+                foreach (var (x, y, z, player, _) in positions)
                 {
-                    { "Smoke", Color.FromArgb(180, Color.Blue) },
-                    { "Molotov", Color.FromArgb(180, Color.Red) },
-                    { "HE", Color.FromArgb(180, Color.Green) },
-                    { "Flashbang", Color.FromArgb(180, Color.Yellow) }
-                };
-
-                foreach (var (grenadeType, positions) in grenadePositions)
-                {
-                    using var brush = new SolidBrush(colors[grenadeType]);
-                    foreach (var (x, y, z, player, _) in positions)
+                    bool shouldPlot = false;
+                    
+                    if (currentMap.HasLowerLevel)
                     {
-                        bool shouldPlot = false;
-                        
-                        if (currentMap.HasLowerLevel)
+                        if (lowerLevel)
                         {
-                            if (lowerLevel)
-                            {
-                                shouldPlot = z <= currentMap.LowerAltitudeMax && z >= currentMap.LowerAltitudeMin;
-                            }
-                            else
-                            {
-                                shouldPlot = z <= currentMap.DefaultAltitudeMax && z >= currentMap.DefaultAltitudeMin;
-                            }
+                            shouldPlot = z <= currentMap.LowerAltitudeMax && z >= currentMap.LowerAltitudeMin;
                         }
                         else
                         {
-                            shouldPlot = true;
-                        }
-
-                        if (shouldPlot)
-                        {
-                            var imageX = ConvertToImageX(x, baseImage.Width);
-                            var imageY = ConvertToImageY(y, baseImage.Height);
-                            graphics.FillEllipse(brush, imageX - 4, imageY - 4, 8, 8);
-                            grenadeCount++;
-                            Console.WriteLine($"Plotting {grenadeType} at Z: {z} on {(lowerLevel ? "lower" : "upper")} level image");
+                            shouldPlot = z <= currentMap.DefaultAltitudeMax && z >= currentMap.DefaultAltitudeMin;
                         }
                     }
+                    else
+                    {
+                        shouldPlot = true;
+                    }
+
+                    if (shouldPlot)
+                    {
+                        var imageX = ConvertToImageX(x, baseImage.Width);
+                        var imageY = ConvertToImageY(y, baseImage.Height);
+                        graphics.FillEllipse(brush, imageX - 4, imageY - 4, 8, 8);
+                        grenadeCount++;
+                        Console.WriteLine($"Plotting {grenadeType} at Z: {z} on {(lowerLevel ? "lower" : "upper")} level image");
+                    }
                 }
+            }
 
-                Console.WriteLine($"Total grenades plotted on {(lowerLevel ? "lower" : "upper")} level: {grenadeCount}");
+            Console.WriteLine($"Total grenades plotted on {(lowerLevel ? "lower" : "upper")} level: {grenadeCount}");
 
-                var directory = Path.GetDirectoryName(outputPath);
-                if (!string.IsNullOrEmpty(directory))
-                {
-                    Directory.CreateDirectory(directory);
-                }
-
-                var encoderParameters = new EncoderParameters(1);
-                encoderParameters.Param[0] = new EncoderParameter(Encoder.Quality, 100L);
-                bitmap.Save(outputPath, GetEncoder(ImageFormat.Png), encoderParameters);
-                
-                Console.WriteLine($"Saved {outputPath}");
+            var encoderParameters = new EncoderParameters(1);
+            encoderParameters.Param[0] = new EncoderParameter(Encoder.Quality, 100L);
+            bitmap.Save(fullOutputPath, GetEncoder(ImageFormat.Png), encoderParameters);
+            
+            Console.WriteLine($"Saved {fullOutputPath}");
         }
         catch (Exception ex)
         {
@@ -1692,6 +1746,16 @@ internal class Program
 
         await BulkInsertData(connection, transaction, "InventorySnapshots", dataTable, columnMappings);
         Console.WriteLine($"Successfully wrote {dataTable.Rows.Count} inventory snapshots");
+    }
+    
+    // Add this helper method to extract the base name from the demo file
+    private static string GetBaseNameFromDemo(string demoPath)
+    {
+        // Get the filename without the path and extension
+        string demoFileName = Path.GetFileNameWithoutExtension(demoPath);
+    
+        // Return the name, which will preserve any numbering in parentheses
+        return demoFileName;
     }
 
     // Now let's fix the WriteRoundData method
