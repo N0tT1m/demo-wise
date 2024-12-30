@@ -1,2 +1,6 @@
 ﻿/demo-vault/demo-vault.csproj
 /demo-vault/bin/
+/demo-lens/wwwroot/bin/
+/demo-lens/wwwroot/uploads/
+/demo-lens/bin/
+/demo-lens/obj/

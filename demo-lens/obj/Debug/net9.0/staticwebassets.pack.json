@@ -5,6 +5,18 @@
       "PackagePath": "staticwebassets\\demo-lens.mvlw1k96m9.bundle.scp.css"
     },
     {
+      "Id": "E:\\workspace\\public-projects\\demo-wise\\demo-lens\\wwwroot\\bin\\DemoParser.exe",
+      "PackagePath": "staticwebassets\\bin\\DemoParser.exe"
+    },
+    {
+      "Id": "E:\\workspace\\public-projects\\demo-wise\\demo-lens\\wwwroot\\bin\\Microsoft.Data.SqlClient.SNI.dll",
+      "PackagePath": "staticwebassets\\bin\\Microsoft.Data.SqlClient.SNI.dll"
+    },
+    {
+      "Id": "E:\\workspace\\public-projects\\demo-wise\\demo-lens\\wwwroot\\bin\\demo-vault.pdb",
+      "PackagePath": "staticwebassets\\bin\\demo-vault.pdb"
+    },
+    {
       "Id": "E:\\workspace\\public-projects\\demo-wise\\demo-lens\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
@@ -257,8 +269,288 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
     },
     {
-      "Id": "E:\\workspace\\public-projects\\demo-wise\\demo-lens\\wwwroot\\uploads\\c391a0f4-a101-440a-a6f6-3aa23e6db3af_anubis.dem",
-      "PackagePath": "staticwebassets\\uploads\\c391a0f4-a101-440a-a6f6-3aa23e6db3af_anubis.dem"
+      "Id": "E:\\workspace\\public-projects\\demo-wise\\demo-lens\\wwwroot\\maps\\de_ancient.png",
+      "PackagePath": "staticwebassets\\maps\\de_ancient.png"
+    },
+    {
+      "Id": "E:\\workspace\\public-projects\\demo-wise\\demo-lens\\wwwroot\\maps\\de_anubis.png",
+      "PackagePath": "staticwebassets\\maps\\de_anubis.png"
+    },
+    {
+      "Id": "E:\\workspace\\public-projects\\demo-wise\\demo-lens\\wwwroot\\maps\\de_dust2.png",
+      "PackagePath": "staticwebassets\\maps\\de_dust2.png"
+    },
+    {
+      "Id": "E:\\workspace\\public-projects\\demo-wise\\demo-lens\\wwwroot\\maps\\de_inferno.png",
+      "PackagePath": "staticwebassets\\maps\\de_inferno.png"
+    },
+    {
+      "Id": "E:\\workspace\\public-projects\\demo-wise\\demo-lens\\wwwroot\\maps\\de_mirage.png",
+      "PackagePath": "staticwebassets\\maps\\de_mirage.png"
+    },
+    {
+      "Id": "E:\\workspace\\public-projects\\demo-wise\\demo-lens\\wwwroot\\maps\\de_nuke.png",
+      "PackagePath": "staticwebassets\\maps\\de_nuke.png"
+    },
+    {
+      "Id": "E:\\workspace\\public-projects\\demo-wise\\demo-lens\\wwwroot\\maps\\de_nuke_lower.png",
+      "PackagePath": "staticwebassets\\maps\\de_nuke_lower.png"
+    },
+    {
+      "Id": "E:\\workspace\\public-projects\\demo-wise\\demo-lens\\wwwroot\\maps\\de_overpass.png",
+      "PackagePath": "staticwebassets\\maps\\de_overpass.png"
+    },
+    {
+      "Id": "E:\\workspace\\public-projects\\demo-wise\\demo-lens\\wwwroot\\maps\\de_train.png",
+      "PackagePath": "staticwebassets\\maps\\de_train.png"
+    },
+    {
+      "Id": "E:\\workspace\\public-projects\\demo-wise\\demo-lens\\wwwroot\\maps\\de_train_lower.png",
+      "PackagePath": "staticwebassets\\maps\\de_train_lower.png"
+    },
+    {
+      "Id": "E:\\workspace\\public-projects\\demo-wise\\demo-lens\\wwwroot\\maps\\de_vertigo.png",
+      "PackagePath": "staticwebassets\\maps\\de_vertigo.png"
+    },
+    {
+      "Id": "E:\\workspace\\public-projects\\demo-wise\\demo-lens\\wwwroot\\maps\\de_vertigo_lower.png",
+      "PackagePath": "staticwebassets\\maps\\de_vertigo_lower.png"
+    },
+    {
+      "Id": "E:\\workspace\\public-projects\\demo-wise\\demo-lens\\wwwroot\\maps\\vertigo(1).png",
+      "PackagePath": "staticwebassets\\maps\\vertigo(1).png"
+    },
+    {
+      "Id": "E:\\workspace\\public-projects\\demo-wise\\demo-lens\\wwwroot\\maps\\vertigo(32).png",
+      "PackagePath": "staticwebassets\\maps\\vertigo(32).png"
+    },
+    {
+      "Id": "E:\\workspace\\public-projects\\demo-wise\\demo-lens\\wwwroot\\maps\\vertigo(32)_lower.png",
+      "PackagePath": "staticwebassets\\maps\\vertigo(32)_lower.png"
+    },
+    {
+      "Id": "E:\\workspace\\public-projects\\demo-wise\\demo-lens\\wwwroot\\maps\\vertigo(33).png",
+      "PackagePath": "staticwebassets\\maps\\vertigo(33).png"
+    },
+    {
+      "Id": "E:\\workspace\\public-projects\\demo-wise\\demo-lens\\wwwroot\\maps\\vertigo(33)_lower.png",
+      "PackagePath": "staticwebassets\\maps\\vertigo(33)_lower.png"
+    },
+    {
+      "Id": "E:\\workspace\\public-projects\\demo-wise\\demo-lens\\wwwroot\\maps\\vertigo(34).png",
+      "PackagePath": "staticwebassets\\maps\\vertigo(34).png"
+    },
+    {
+      "Id": "E:\\workspace\\public-projects\\demo-wise\\demo-lens\\wwwroot\\maps\\vertigo(34)_lower.png",
+      "PackagePath": "staticwebassets\\maps\\vertigo(34)_lower.png"
+    },
+    {
+      "Id": "E:\\workspace\\public-projects\\demo-wise\\demo-lens\\wwwroot\\maps\\vertigo(35).png",
+      "PackagePath": "staticwebassets\\maps\\vertigo(35).png"
+    },
+    {
+      "Id": "E:\\workspace\\public-projects\\demo-wise\\demo-lens\\wwwroot\\maps\\vertigo(35)_lower.png",
+      "PackagePath": "staticwebassets\\maps\\vertigo(35)_lower.png"
+    },
+    {
+      "Id": "E:\\workspace\\public-projects\\demo-wise\\demo-lens\\wwwroot\\maps\\vertigo(36).png",
+      "PackagePath": "staticwebassets\\maps\\vertigo(36).png"
+    },
+    {
+      "Id": "E:\\workspace\\public-projects\\demo-wise\\demo-lens\\wwwroot\\maps\\vertigo(37).png",
+      "PackagePath": "staticwebassets\\maps\\vertigo(37).png"
+    },
+    {
+      "Id": "E:\\workspace\\public-projects\\demo-wise\\demo-lens\\wwwroot\\maps\\vertigo(37)_lower.png",
+      "PackagePath": "staticwebassets\\maps\\vertigo(37)_lower.png"
+    },
+    {
+      "Id": "E:\\workspace\\public-projects\\demo-wise\\demo-lens\\wwwroot\\maps\\vertigo(38).png",
+      "PackagePath": "staticwebassets\\maps\\vertigo(38).png"
+    },
+    {
+      "Id": "E:\\workspace\\public-projects\\demo-wise\\demo-lens\\wwwroot\\maps\\vertigo(38)_lower.png",
+      "PackagePath": "staticwebassets\\maps\\vertigo(38)_lower.png"
+    },
+    {
+      "Id": "E:\\workspace\\public-projects\\demo-wise\\demo-lens\\wwwroot\\maps\\vertigo(39).png",
+      "PackagePath": "staticwebassets\\maps\\vertigo(39).png"
+    },
+    {
+      "Id": "E:\\workspace\\public-projects\\demo-wise\\demo-lens\\wwwroot\\maps\\vertigo(39)_lower.png",
+      "PackagePath": "staticwebassets\\maps\\vertigo(39)_lower.png"
+    },
+    {
+      "Id": "E:\\workspace\\public-projects\\demo-wise\\demo-lens\\wwwroot\\maps\\vertigo.png",
+      "PackagePath": "staticwebassets\\maps\\vertigo.png"
+    },
+    {
+      "Id": "E:\\workspace\\public-projects\\demo-wise\\demo-lens\\wwwroot\\maps\\vertigo_lower(1).png",
+      "PackagePath": "staticwebassets\\maps\\vertigo_lower(1).png"
+    },
+    {
+      "Id": "E:\\workspace\\public-projects\\demo-wise\\demo-lens\\wwwroot\\maps\\vertigo_lower.png",
+      "PackagePath": "staticwebassets\\maps\\vertigo_lower.png"
+    },
+    {
+      "Id": "E:\\workspace\\public-projects\\demo-wise\\demo-lens\\wwwroot\\uploads\\vertigo(1).dem",
+      "PackagePath": "staticwebassets\\uploads\\vertigo(1).dem"
+    },
+    {
+      "Id": "E:\\workspace\\public-projects\\demo-wise\\demo-lens\\wwwroot\\uploads\\vertigo(10).dem",
+      "PackagePath": "staticwebassets\\uploads\\vertigo(10).dem"
+    },
+    {
+      "Id": "E:\\workspace\\public-projects\\demo-wise\\demo-lens\\wwwroot\\uploads\\vertigo(11).dem",
+      "PackagePath": "staticwebassets\\uploads\\vertigo(11).dem"
+    },
+    {
+      "Id": "E:\\workspace\\public-projects\\demo-wise\\demo-lens\\wwwroot\\uploads\\vertigo(12).dem",
+      "PackagePath": "staticwebassets\\uploads\\vertigo(12).dem"
+    },
+    {
+      "Id": "E:\\workspace\\public-projects\\demo-wise\\demo-lens\\wwwroot\\uploads\\vertigo(13).dem",
+      "PackagePath": "staticwebassets\\uploads\\vertigo(13).dem"
+    },
+    {
+      "Id": "E:\\workspace\\public-projects\\demo-wise\\demo-lens\\wwwroot\\uploads\\vertigo(14).dem",
+      "PackagePath": "staticwebassets\\uploads\\vertigo(14).dem"
+    },
+    {
+      "Id": "E:\\workspace\\public-projects\\demo-wise\\demo-lens\\wwwroot\\uploads\\vertigo(15).dem",
+      "PackagePath": "staticwebassets\\uploads\\vertigo(15).dem"
+    },
+    {
+      "Id": "E:\\workspace\\public-projects\\demo-wise\\demo-lens\\wwwroot\\uploads\\vertigo(16).dem",
+      "PackagePath": "staticwebassets\\uploads\\vertigo(16).dem"
+    },
+    {
+      "Id": "E:\\workspace\\public-projects\\demo-wise\\demo-lens\\wwwroot\\uploads\\vertigo(17).dem",
+      "PackagePath": "staticwebassets\\uploads\\vertigo(17).dem"
+    },
+    {
+      "Id": "E:\\workspace\\public-projects\\demo-wise\\demo-lens\\wwwroot\\uploads\\vertigo(18).dem",
+      "PackagePath": "staticwebassets\\uploads\\vertigo(18).dem"
+    },
+    {
+      "Id": "E:\\workspace\\public-projects\\demo-wise\\demo-lens\\wwwroot\\uploads\\vertigo(19).dem",
+      "PackagePath": "staticwebassets\\uploads\\vertigo(19).dem"
+    },
+    {
+      "Id": "E:\\workspace\\public-projects\\demo-wise\\demo-lens\\wwwroot\\uploads\\vertigo(2).dem",
+      "PackagePath": "staticwebassets\\uploads\\vertigo(2).dem"
+    },
+    {
+      "Id": "E:\\workspace\\public-projects\\demo-wise\\demo-lens\\wwwroot\\uploads\\vertigo(20).dem",
+      "PackagePath": "staticwebassets\\uploads\\vertigo(20).dem"
+    },
+    {
+      "Id": "E:\\workspace\\public-projects\\demo-wise\\demo-lens\\wwwroot\\uploads\\vertigo(21).dem",
+      "PackagePath": "staticwebassets\\uploads\\vertigo(21).dem"
+    },
+    {
+      "Id": "E:\\workspace\\public-projects\\demo-wise\\demo-lens\\wwwroot\\uploads\\vertigo(22).dem",
+      "PackagePath": "staticwebassets\\uploads\\vertigo(22).dem"
+    },
+    {
+      "Id": "E:\\workspace\\public-projects\\demo-wise\\demo-lens\\wwwroot\\uploads\\vertigo(23).dem",
+      "PackagePath": "staticwebassets\\uploads\\vertigo(23).dem"
+    },
+    {
+      "Id": "E:\\workspace\\public-projects\\demo-wise\\demo-lens\\wwwroot\\uploads\\vertigo(24).dem",
+      "PackagePath": "staticwebassets\\uploads\\vertigo(24).dem"
+    },
+    {
+      "Id": "E:\\workspace\\public-projects\\demo-wise\\demo-lens\\wwwroot\\uploads\\vertigo(25).dem",
+      "PackagePath": "staticwebassets\\uploads\\vertigo(25).dem"
+    },
+    {
+      "Id": "E:\\workspace\\public-projects\\demo-wise\\demo-lens\\wwwroot\\uploads\\vertigo(26).dem",
+      "PackagePath": "staticwebassets\\uploads\\vertigo(26).dem"
+    },
+    {
+      "Id": "E:\\workspace\\public-projects\\demo-wise\\demo-lens\\wwwroot\\uploads\\vertigo(27).dem",
+      "PackagePath": "staticwebassets\\uploads\\vertigo(27).dem"
+    },
+    {
+      "Id": "E:\\workspace\\public-projects\\demo-wise\\demo-lens\\wwwroot\\uploads\\vertigo(28).dem",
+      "PackagePath": "staticwebassets\\uploads\\vertigo(28).dem"
+    },
+    {
+      "Id": "E:\\workspace\\public-projects\\demo-wise\\demo-lens\\wwwroot\\uploads\\vertigo(29).dem",
+      "PackagePath": "staticwebassets\\uploads\\vertigo(29).dem"
+    },
+    {
+      "Id": "E:\\workspace\\public-projects\\demo-wise\\demo-lens\\wwwroot\\uploads\\vertigo(3).dem",
+      "PackagePath": "staticwebassets\\uploads\\vertigo(3).dem"
+    },
+    {
+      "Id": "E:\\workspace\\public-projects\\demo-wise\\demo-lens\\wwwroot\\uploads\\vertigo(30).dem",
+      "PackagePath": "staticwebassets\\uploads\\vertigo(30).dem"
+    },
+    {
+      "Id": "E:\\workspace\\public-projects\\demo-wise\\demo-lens\\wwwroot\\uploads\\vertigo(31).dem",
+      "PackagePath": "staticwebassets\\uploads\\vertigo(31).dem"
+    },
+    {
+      "Id": "E:\\workspace\\public-projects\\demo-wise\\demo-lens\\wwwroot\\uploads\\vertigo(32).dem",
+      "PackagePath": "staticwebassets\\uploads\\vertigo(32).dem"
+    },
+    {
+      "Id": "E:\\workspace\\public-projects\\demo-wise\\demo-lens\\wwwroot\\uploads\\vertigo(33).dem",
+      "PackagePath": "staticwebassets\\uploads\\vertigo(33).dem"
+    },
+    {
+      "Id": "E:\\workspace\\public-projects\\demo-wise\\demo-lens\\wwwroot\\uploads\\vertigo(34).dem",
+      "PackagePath": "staticwebassets\\uploads\\vertigo(34).dem"
+    },
+    {
+      "Id": "E:\\workspace\\public-projects\\demo-wise\\demo-lens\\wwwroot\\uploads\\vertigo(35).dem",
+      "PackagePath": "staticwebassets\\uploads\\vertigo(35).dem"
+    },
+    {
+      "Id": "E:\\workspace\\public-projects\\demo-wise\\demo-lens\\wwwroot\\uploads\\vertigo(36).dem",
+      "PackagePath": "staticwebassets\\uploads\\vertigo(36).dem"
+    },
+    {
+      "Id": "E:\\workspace\\public-projects\\demo-wise\\demo-lens\\wwwroot\\uploads\\vertigo(37).dem",
+      "PackagePath": "staticwebassets\\uploads\\vertigo(37).dem"
+    },
+    {
+      "Id": "E:\\workspace\\public-projects\\demo-wise\\demo-lens\\wwwroot\\uploads\\vertigo(38).dem",
+      "PackagePath": "staticwebassets\\uploads\\vertigo(38).dem"
+    },
+    {
+      "Id": "E:\\workspace\\public-projects\\demo-wise\\demo-lens\\wwwroot\\uploads\\vertigo(39).dem",
+      "PackagePath": "staticwebassets\\uploads\\vertigo(39).dem"
+    },
+    {
+      "Id": "E:\\workspace\\public-projects\\demo-wise\\demo-lens\\wwwroot\\uploads\\vertigo(4).dem",
+      "PackagePath": "staticwebassets\\uploads\\vertigo(4).dem"
+    },
+    {
+      "Id": "E:\\workspace\\public-projects\\demo-wise\\demo-lens\\wwwroot\\uploads\\vertigo(5).dem",
+      "PackagePath": "staticwebassets\\uploads\\vertigo(5).dem"
+    },
+    {
+      "Id": "E:\\workspace\\public-projects\\demo-wise\\demo-lens\\wwwroot\\uploads\\vertigo(6).dem",
+      "PackagePath": "staticwebassets\\uploads\\vertigo(6).dem"
+    },
+    {
+      "Id": "E:\\workspace\\public-projects\\demo-wise\\demo-lens\\wwwroot\\uploads\\vertigo(7).dem",
+      "PackagePath": "staticwebassets\\uploads\\vertigo(7).dem"
+    },
+    {
+      "Id": "E:\\workspace\\public-projects\\demo-wise\\demo-lens\\wwwroot\\uploads\\vertigo(8).dem",
+      "PackagePath": "staticwebassets\\uploads\\vertigo(8).dem"
+    },
+    {
+      "Id": "E:\\workspace\\public-projects\\demo-wise\\demo-lens\\wwwroot\\uploads\\vertigo(9).dem",
+      "PackagePath": "staticwebassets\\uploads\\vertigo(9).dem"
+    },
+    {
+      "Id": "E:\\workspace\\public-projects\\demo-wise\\demo-lens\\wwwroot\\uploads\\vertigo.dem",
+      "PackagePath": "staticwebassets\\uploads\\vertigo.dem"
     },
     {
       "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.demo-lens.props",

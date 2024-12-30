@@ -14,10 +14,25 @@
                 <div class="mb-3">
                     <label for="demoFile" class="form-label">Select Demo File (.dem)</label>
                     <input type="file" class="form-control" id="demoFile" name="demoFile" accept=".dem" />
+                    <div></div>
+                    <label for="mapName" class="form-label">Select the map for the demo</label>
+                    <select class="form-control" id="mapName" name="mapName" asp-items="Model.Maps"></select>
                 </div>
-                <button type="submit" class="btn btn-primary">Upload</button>
+                <button type="submit" class="btn btn-primary">Upload & Process</button>
             </form>
             <div id="result" class="mt-3"></div>
+            <div id="processing" class="mt-3 d-none">
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated"
+                         role="progressbar"
+                         style="width: 100%">
+                        Processing demo file...
+                    </div>
+                </div>
+            </div>
+            <div id="output" class="mt-3">
+                <pre class="bg-light p-3 rounded" style="max-height: 300px; overflow-y: auto;"></pre>
+            </div>
         </div>
     </div>
 </div>
@@ -29,6 +44,12 @@
                 e.preventDefault();
 
                 var formData = new FormData(this);
+                var token = $('input[name="__RequestVerificationToken"]').val();
+
+                // Show processing indicator
+                $('#result').empty();
+                $('#processing').removeClass('d-none');
+                $('#output pre').empty();
 
                 $.ajax({
                     url: '?handler=Upload',
@@ -36,17 +57,42 @@
                     data: formData,
                     processData: false,
                     contentType: false,
+                    headers: {
+                        "RequestVerificationToken": token
+                    },
                     success: function(result) {
-                        $('#result').html(`
-                            <div class="alert alert-success">
-                                File "${result.fileName}" uploaded successfully
-                            </div>`);
+                        $('#processing').addClass('d-none');
+                        
+                        // Check if the upload was successful
+                        if (result.success) {
+                            $('#result').html(`
+                                <div class="alert alert-success">
+                                    ${result.message}
+                                </div>`);
+
+                            // Add a brief delay before redirecting to give users time to see the success message
+                            setTimeout(function() {
+                                window.location.href = '/ProcessedDemos';
+                            }, 1500);
+                        } else {
+                            // If not successful, show the error message
+                            $('#result').html(`
+                                <div class="alert alert-danger">
+                                    ${result.message}
+                                </div>`);
+                        }
+
+                        // Display any output if available
+                        if (result.output) {
+                            $('#output pre').text(result.output);
+                        }
                     },
                     error: function(xhr, status, error) {
+                        $('#processing').addClass('d-none');
                         console.error('Upload error:', xhr.responseText);
                         $('#result').html(`
                             <div class="alert alert-danger">
-                                Upload failed: ${xhr.status} - ${xhr.responseText || error}
+                                Processing failed: ${xhr.responseText || error}
                             </div>`);
                     }
                 });

@@ -1,19 +1,45 @@
 ﻿@page
-@model demo_lens.Pages.ProcessedDemos
-
+@model ProcessedDemosModel
 @{
-    Layout = null;
+    ViewData["Title"] = "Processed Demos";
 }
 
-<!DOCTYPE html>
-
-<html>
-<head>
-    <title></title>
-</head>
-<body>
-<div>
+<div class="container">
+    <h1>Processed Demos</h1>
     
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        @foreach (var demo in Model.ProcessedDemos)
+        {
+            <div class="col">
+                <div class="card h-100">
+                    @if (!string.IsNullOrEmpty(demo.ImagePath))
+                    {
+                        <img src="@demo.ImagePath" class="card-img-top" alt="Map visualization">
+                    }
+                    <div class="card-body">
+                        <h5 class="card-title">@demo.DemoFileName</h5>
+                        <p class="card-text">
+                            <strong>Map:</strong> @demo.MapName<br>
+                            <strong>Processed:</strong> @demo.ProcessedAt.ToString("g")<br>
+                            <strong>Status:</strong> 
+                            @if (demo.Success)
+                            {
+                                <span class="badge bg-success">Success</span>
+                            }
+                            else
+                            {
+                                <span class="badge bg-danger">Failed</span>
+                            }
+                        </p>
+                        @if (demo.Success && !string.IsNullOrEmpty(demo.DashboardUrl))
+                        {
+                            <a href="@demo.DashboardUrl" class="btn btn-primary" target="_blank">
+                                View Analysis Dashboard
+                            </a>
+                        }
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
 </div>
-</body>
-</html>

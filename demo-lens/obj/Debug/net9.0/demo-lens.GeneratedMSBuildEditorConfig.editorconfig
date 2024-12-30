@@ -36,6 +36,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVtb1BhcnNlci5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[E:/workspace/public-projects/demo-wise/demo-lens/Pages/DemoResults.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVtb1Jlc3VsdHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/workspace/public-projects/demo-wise/demo-lens/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -46,6 +50,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [E:/workspace/public-projects/demo-wise/demo-lens/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[E:/workspace/public-projects/demo-wise/demo-lens/Pages/ProcessedDemos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvY2Vzc2VkRGVtb3MuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [E:/workspace/public-projects/demo-wise/demo-lens/Pages/Shared/_LoginPartial.cshtml]

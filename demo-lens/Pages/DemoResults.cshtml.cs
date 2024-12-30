@@ -1,4 +1,4 @@
-﻿using demo_wise.Data;
+﻿using demo_lens.Data;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
